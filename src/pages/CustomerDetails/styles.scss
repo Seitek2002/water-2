@@ -1,0 +1,26 @@
+.customer-details {
+  .ant-typography {
+    display: flex;
+    justify-content: space-between;
+    &-edit {
+      color: #101010;
+    }
+  }
+  .delete-button {
+    color: red;
+  }
+  .actions {
+    gap: 16px;
+    .buttons {
+      gap: 10px;
+    }
+  }
+
+  .box-wrapper {
+    position: relative;
+    border: 1px solid #ededed;
+    padding: 16px;
+    border-radius: 8px;
+    margin-bottom: 24px;
+  }
+}

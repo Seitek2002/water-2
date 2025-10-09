@@ -1,0 +1,1 @@
+export { ApplicationsTab } from './ApplicationsTab';

@@ -1,0 +1,1 @@
+export { MapObjectCard } from './MapObjectCard';

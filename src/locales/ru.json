@@ -1,0 +1,1599 @@
+{
+  "login": {
+    "title": "Бишкекводаканал",
+    "welcome": "Добро пожаловать",
+    "email": "Введите ваш email",
+    "emailPlaceholder": "Email должен быть минимум 5 символов",
+    "description": "Введите ваш ID и пароль",
+    "password": "Пароль",
+    "passwordInput": "Введите пароль",
+    "passwordPlaceholder": "Пароль должен быть минимум 5 символов",
+    "forgotPassword": "Забыли пароль?",
+    "authorizationError": "Произошла ошибка при авторизации:",
+    "login": "Войти",
+    "loading": "Входим...",
+    "errors": {
+      "invalidCredentials": "Неверный email или пароль",
+      "forbidden": "Доступ запрещён",
+      "server": "Ошибка сервера. Повторите позже.",
+      "network": "Сеть недоступна. Проверьте интернет-соединение.",
+      "parse": "Неожиданный ответ сервера.",
+      "unknown": "Неизвестная ошибка"
+    }
+  },
+  "dashboard": {
+    "pages": {
+      "geoportal": "Геопортал",
+      "ty": "TУ",
+      "objects": "Объекты",
+      "applications": "Заявки",
+      "customers": "Заказчики",
+      "bills": "Счета на оплату",
+      "architecture": "Архитектура",
+      "export": "Экспорт",
+      "formulas": "Формулы",
+      "archive": "Архив",
+      "protocols": "Протоколы"
+    },
+    "panel": "Панель управления"
+  },
+  "routers": {
+    "historyOfLoads": "История увеличения нагрузок",
+    "editTy": "Редактирование ТУ",
+    "addTu": "Добавление ТУ",
+    "exportData": "Экспорт данных",
+    "historyExportData": "История экспорта данных",
+    "customerDetails": "Детали клиентов",
+    "editRequister": "Редактирование заказчика",
+    "addCustomer": "Добавление заказчика",
+    "document": "Документ №",
+    "protocol": "Протокол",
+    "ApplicationDetails": "заявка №",
+    "editApplication": "Редактирование заявку",
+    "applicationCreate": "Оформление заявки",
+    "profile": "Профиль",
+    "technicalSpecificatio": "Технические условия",
+    "applicationDetails": "заявка №",
+    "tuNumberPrefix": "ТУ №",
+    "changeHistory": "История изменений",
+    "notifications": "Уведомления",
+    "invoices": "Счета",
+    "protocols": "Протоколы"
+  },
+  "profile": {
+    "title": "Настройки",
+    "currentLang": "Языки",
+    "description": "Используемый язык",
+    "selectLanguageHint": "Выберите предпочтительный язык отображения",
+    "ru": "Русский",
+    "kg": "Кыргызча",
+    "en": "English",
+    "account": "Аккаунт",
+    "logout": "Выйти из аккаунта",
+    "confirmTitle": "Подтверждение выхода",
+    "confirmLogout": "Вы уверены, что хотите выйти из аккаунта?",
+    "yes": "Да",
+    "no": "Нет",
+    "error": {
+      "title": "Ошибка загрузки профиля",
+      "description": "Не удалось загрузить данные пользователя"
+    },
+    "userInfo": {
+      "title": "Информация о пользователе:",
+      "id": "ID пользователя:",
+      "email": "Email:",
+      "phone": "Телефон:",
+      "provider": "Провайдер:"
+    },
+    "user": "Пользователь"
+  },
+  "filterBar": {
+    "search": "Найти",
+    "residential": "Жилой",
+    "commercial": "Коммерческий",
+    "approved": "Утверждено",
+    "rejected": "Отклонено",
+    "archived": "В архиве",
+    "newOnesfirst": "Сначала новые",
+    "newOldFirst": "Сначало последние",
+    "add": "Добавить",
+      "filters": "Фильтрация",
+      "searchButton": "Найти",
+      "byDate": "По дате",
+    "alphabetAsc": "А-Я",
+    "alphabetDesc": "Я-А",
+    "paymentDeadlineAsc": "Срок оплаты: ранние",
+    "paymentDeadlineDesc": "Срок оплаты: поздние",
+    "paymentDateAsc": "Дата оплаты: ранние",
+    "paymentDateDesc": "Дата оплаты: поздние",
+    "filter": {
+      "alphabet": "По алфавиту",
+      "type": "По типу",
+      "status": "Статус",
+      "required": "Обязательное поле",
+      "date": "Дата",
+      "category": "Категория"
+    }
+  },
+  "geoportalFilters": {
+    "searchPlaceholder": "Поиск по названию, адресу или номеру заявки",
+    "dropdown": {
+      "type": "По типу",
+      "status": "По статусу",
+      "date": "По дате"
+    },
+    "type": {
+      "all": "Все типы",
+      "water": "Водопровод",
+      "sewer": "Канализация",
+      "gas": "Газопровод",
+      "electric": "Электросети",
+      "other": "Другое"
+    },
+    "status": {
+      "all": "Все статусы",
+      "active": "Активный",
+      "inactive": "Неактивный"
+    },
+    "date": {
+      "all": "Все периоды",
+      "month": "За последний месяц",
+      "quarter": "За последние 3 месяца",
+      "year": "За последний год"
+    },
+    "messages": {
+      "type": "Фильтр по типу: {{value}}",
+      "status": "Фильтр по статусу: {{value}}",
+      "date": "Фильтр по дате: {{value}}"
+    }
+  },
+  "common": {
+    "refresh": "Обновить",
+    "downloadPdf": "Скачать PDF",
+    "delete": "Удалить",
+    "upload": "Загрузить",
+    "pending": "В ожидании",
+    "status": "Статус",
+    "required": "Обязательное поле",
+    "export": "Экспорт",
+    "all": "Все",
+    "download": "Скачать",
+    "uploadMore": "Загрузить ещё",
+    "inDevelopment": "В разработке",
+    "back": "Назад",
+    "uploadFile": "Загрузить файл",
+    "supportedFormatsHint": "Поддерживаются изображения, PDF, DOC/DOCX, XLS/XLSX",
+    "bytes": "байт",
+    "selectedFiles": "Выбрано файлов: {{count}}",
+    "errorPrefix": "Ошибка: ",
+    "remaining": "Остаток",
+    "coordinates": "Координаты",
+    "area": "Площадь",
+      "amountLabel": "Сумма:",
+      "dateLabel": "Дата:",
+      "dateStart": "Дата с",
+      "dateEnd": "Дата по",
+      "totalLabel": "Итого:",
+    "save": "Сохранить",
+    "edit": "Редактировать",
+    "cancel": "Отмена",
+    "continue": "Продолжить",
+    "latitude": "Широта",
+    "longitude": "Долгота",
+    "comment": "Комментарий",
+    "optionalComment": "Комментарий (необязательно)",
+    "noData": "Нет данных",
+    "error": "Ошибка",
+    "reset": "Сбросить",
+    "advanced": "Дополнительно",
+    "yes": "Да",
+    "no": "Нет"
+  },
+  "geoportal": {
+    "errorLoad": "Ошибка загрузки данных",
+    "dataRefreshed": "Данные обновлены",
+    "apiError": "Не удалось загрузить данные с API. Пожалуйста, попробуйте позже.",
+    "tryAgain": "Попробовать снова",
+    "foundCount": "Найдено объектов: {{count}} из {{total}}",
+    "resetFilters": "Сбросить фильтры",
+    "loading": "Загрузка данных карты..."
+  },
+  "objectDetail": {
+    "title": "Детали объекта",
+    "titleUpdated": "Название обновлено",
+    "errorUpdateTitle": "Ошибка при обновлении названия",
+    "confirmDeleteTitle": "Подтверждение удаления",
+    "confirmDeleteContent": "Вы уверены, что хотите удалить объект \"{{title}}\"? Это действие нельзя отменить.",
+    "delete": "Удалить",
+    "cancel": "Отмена",
+    "deleted": "Объект удален",
+    "errorDelete": "Ошибка при удалении объекта",
+    "invalidId": "Неверный ID",
+    "invalidIdDescription": "Указан некорректный идентификатор объекта",
+    "backToList": "Вернуться к списку",
+    "notFound": "Объект не найден",
+    "loadError": "Ошибка загрузки",
+    "notFoundDescription": "Объект с указанным ID не существует или был удален",
+    "loadErrorDescription": "Не удалось загрузить информацию об объекте. Проверьте подключение к интернету.",
+    "retry": "Повторить",
+    "noData": "Нет данных",
+    "noDataDescription": "Данные об объекте отсутствуют",
+    "refresh": "Обновить"
+  },
+  "objectEdit": {
+    "buttons": {
+      "backToObjects": "Назад к объектам",
+      "cancel": "Отмена",
+      "save": "Сохранить",
+      "edit": "Редактировать"
+    },
+    "labels": {
+      "contractDate": "Дата договора",
+      "type": "Тип",
+      "status": "Статус",
+      "address": "Адрес",
+      "cadastralNumber": "Кадастровый номер",
+      "usageType": "Вид использования",
+      "tuStatus": "Статус ТУ",
+      "coordinates": "Координаты"
+    },
+    "placeholders": {
+      "pickDate": "Выберите дату",
+      "objectType": "Тип объекта",
+      "selectStatus": "Выберите статус",
+      "street": "Улица",
+      "house": "Дом",
+      "cadastralNumber": "Кадастровый номер",
+      "usageType": "Вид использования",
+      "tuStatus": "Статус ТУ",
+      "latitude": "Широта",
+      "longitude": "Долгота"
+    },
+    "validation": {
+      "enterTitle": "Введите название объекта",
+      "selectStatus": "Выберите статус"
+    },
+    "messages": {
+      "updated": "Объект обновлён",
+      "updateError": "Не удалось обновить объект"
+    },
+    "statusOptions": {
+      "active": "Активен",
+      "inactive": "Неактивен",
+      "pending": "В ожидании",
+      "rejected": "Отклонен"
+    }
+  },
+  "historyOfLoads": {
+    "addLoad": "Добавить нагрузку",
+    "columns": {
+      "tu": "№ ТУ",
+      "collaborator": "Сотрудник",
+      "loadAdded": "Добавленная нагрузка",
+      "regDate": "Дата регистрации",
+      "status": "Статус"
+    },
+    "hint": {
+      "ty": "ТУ"
+    },
+    "messages": {
+      "addSuccess": "Нагрузка добавлена",
+      "addError": "Не удалось добавить нагрузку"
+    }
+  },
+  "tuDetails": {
+    "status": {
+      "active": "Активный",
+      "inactive": "Неактивный",
+      "archived": "В архиве"
+    },
+    "stage": {
+      "draft": "Черновик",
+      "review": "На рассмотрении",
+      "approved": "Утверждено",
+      "done": "Завершено",
+      "unknown": "Неизвестно"
+    },
+    "act": {
+      "actions": {
+        "upload": "Загрузить акт",
+        "toReview": "На рассмотрение",
+        "approve": "Утвердить",
+        "finish": "Завершить",
+        "download": "Скачать акт"
+      },
+      "messages": {
+        "mustBeApproved": "Действие доступно только после утверждения ТУ",
+        "statusUpdated": "Статус акта обновлён",
+        "statusUpdateFailed": "Не удалось изменить статус акта",
+        "fileRequired": "Выберите файл акта",
+        "uploadSuccess": "Акт загружен"
+      },
+      "modal": {
+        "title": "Загрузить акт",
+        "hint": "Загрузите файл для статуса: {{status}}"
+      },
+      "status": {
+        "draft": "Черновик",
+        "review": "На рассмотрении",
+        "approved": "Утвержден",
+        "done": "Завершен",
+        "none": "Нет акта"
+      },
+      "confirm": {
+        "changeTitle": "Изменить статус акта?",
+        "changeContent": "Вы действительно хотите изменить статус акта?",
+        "createTitle": "Создать акт подтверждения?",
+        "createContent": "Будет создан акт. Продолжить?"
+      }
+    },
+    "titles": {
+      "objectName": "Наименование объекта",
+      "applicationInfo": "Информация о заявке",
+      "additionalCharacteristics": "Дополнительные характеристики",
+      "payment": "Оплата",
+      "customer": "Заказчик",
+      "objectLocation": "Место нахождения объекта",
+      "waterRequired": "Требуемое количество водопроводной воды",
+      "pressureRequired": "Требуемый свободный напор",
+      "sewageAmount": "Количество стоков",
+      "geoportalRequest": "Запрос на создание геопортала",
+      "savedGeoportalRequest": "Сохраненный запрос на геопортал",
+      "waterSupply": "Водопровод",
+      "sewer": "Канализация",
+      "otherDocuments": "Другие документы",
+      "confirmationAct": "Акт подтверждения"
+    },
+    "labels": {
+      "requestNumber": "Номер заявки:",
+      "requestDate": "Дата заявки:",
+      "requestSource": "Источник запроса:",
+      "inn": "ИНН:",
+      "connectionTarget": "Объект подключения:",
+      "streetPass": "Проход по улице:",
+      "collector": "Коллектор:",
+      "fireFighting": "Пожаротушение:",
+      "fireInput1": "Пожарный ввод 1:",
+      "fireInput2": "Пожарный ввод 2:",
+      "notes": "Примечания:",
+      "paymentInvoiceNumber": "Номер счёта:",
+      "paymentPaper": "Сумма за бумажную работу:",
+      "paymentConnection": "Сумма за подключение:",
+      "paymentAmount": "Итого к оплате:",
+      "paymentDeadline": "Крайний срок оплаты:",
+      "stage": "Этап:",
+      "address":"Введите адрес"
+    },
+    "units": {
+      "m3PerDay": "м³/сут",
+      "mWaterCol": "м.вод.ст"
+    },
+    "currency": "сом",
+    "actions": {
+      "request": "Запросить",
+      "changeTuData": "История изменений данных ТУ",
+      "downloadTu": "Скачать ТУ",
+      "rejectTu": "Отказать ТУ",
+      "approveTu": "Одобрить ТУ",
+      "downloadContract": "Скачать договор"
+    },
+    "autoLoaded": "Автоматически загружено",
+    "contentNotImplemented": "Контент для \"{{title}}\" пока не реализован",
+    "hint": {
+      "uploadToFinishTu": "Загрузите соответствующий документ, чтобы завершить создание ТУ"
+    },
+    "tabs": {
+      "data": "Данные",
+      "architecture": "Архитектура",
+      "documents": "Документы",
+      "accounting": "Бухгалтерия"
+    },
+    "notSpecified": "Не указано",
+    "loadError": "Ошибка загрузки",
+    "loadErrorDescription": "Не удалось загрузить данные технических условий",
+    "archivedMessage": "ТУ находится в архиве",
+    "messages": {
+      "approved": "ТУ одобрены",
+      "approveFailed": "Не удалось одобрить ТУ",
+      "tuRejected": "ТУ отклонено",
+      "tuRejectFailed": "Не удалось отказать ТУ",
+      "rejected": "Отказ создан",
+      "rejectFailed": "Не удалось создать отказ"
+    },
+    "buttons": {
+      "goToApplication": "Перейти к заявке"
+    }
+  },
+  "exportData": {
+    "formSubmitted": "Форма отправлена:",
+    "title": "Выберите параметры и выгрузите необходимые данные",
+    "fields": {
+      "dataType": "Типы данных",
+      "statuses": "Статусы",
+      "responsible": "Ответственный",
+      "dateFrom": "Дата от",
+      "dateTo": "Дата до",
+      "selectFields": "Выберите поля для экспорта"
+    },
+    "validation": {
+      "selectSection": "Выберите раздел"
+    },
+    "placeholders": {
+      "selectSection": "Выберите раздел",
+      "responsible": "ФИО или отдел",
+      "selectFormula": "Выберите формулу",
+      "selectTypeTU": "Выберите тип ТУ",
+      "searchCustomer": "Поиск заказчика (ФИО/Название)",
+      "searchObject": "Поиск объекта (по названию)",
+      "numberExample": "123",
+      "text": "Текст",
+      "date": "YYYY-MM-DD"
+    },
+    "options": {
+      "orders": "Заказы",
+      "clients": "Клиенты",
+      "requests": "Запросы"
+    },
+    "status": {
+      "new": "Новые",
+      "inProgress": "В работе",
+      "completed": "Завершённые"
+    },
+    "responsible": {
+      "departmentA": "Отдел A",
+      "departmentB": "Отдел B",
+      "ivanov": "Иванов И.И."
+    },
+    "checkboxes": {
+      "registrationDate": "Дата регистрации",
+      "customer": "Заказчик",
+      "customerSample": "ОсОО \"Сайрус\"",
+      "rightToAddRequest": "Право на добавление запроса"
+    },
+    "formats": {
+      "excel": "Excel (.xlsx)",
+      "csv": "CSV (.csv)",
+      "pdf": "PDF (для отчётов)"
+    },
+    "entities": {
+      "technical_conditions": "ТУ",
+      "entities": "Объекты",
+      "protocols": "Протоколы",
+      "customers": "Заказчики",
+      "payments": "Платежи",
+      "invoices": "Счета",
+      "applications": "Заявки"
+    },
+    "ui": {
+      "formatLabel": "Формат",
+      "formatRequired": "Выберите формат",
+      "formatPlaceholder": "Выберите формат",
+      "entityLabel": "Сущность",
+      "entityRequired": "Выберите сущность",
+      "entityPlaceholder": "Что экспортируем",
+      "filtersTitle": "Фильтры",
+      "filtersHint": "Укажите один или несколько фильтров, либо заполните список ID ниже",
+      "idsLabel": "ID записей (через пробел или запятую)",
+      "idsTooltip": "Можно указать один или несколько ID",
+      "idsPlaceholder": "Например: 1, 2, 3",
+      "includeTitle": "Склейка связанных сущностей",
+      "include": {
+        "customer": "Заказчик",
+        "entity": "Объект",
+        "protocol": "Протокол",
+        "invoices": "Счета",
+        "payments": "Платежи",
+        "pending": "Учитывать платежи в статусе pending"
+      },
+      "fieldsLabel": "Колонки (опционально)",
+      "fieldsTooltip": "Список ключей данных. Оставьте пустым для дефолта сервера",
+      "fieldsPlaceholder": "Например: invoice_number, total_sum",
+      "filenameLabel": "Имя файла (без расширения)",
+      "filenamePlaceholder": "unpaid_invoices"
+    },
+    "messages": {
+      "filtersOrIdsRequired": "Нужно указать либо фильтры, либо список ID (или оба).",
+      "downloaded": "Файл сформирован и скачан",
+      "failed": "Не удалось сформировать файл экспорта"
+    },
+    "filters": {
+      "id": "ID",
+      "request_number": "Номер запроса",
+      "status": "Статус",
+      "stage": "Стадия",
+      "type_ty": "Тип ТУ (ID)",
+      "customer_id": "Заказчик (ID)",
+      "entity_id": "Объект (ID)",
+      "formula_id": "Формула (ID)",
+      "request_date_start": "Дата запроса с",
+      "request_date_end": "Дата запроса по",
+      "is_water": "Подключение к воде",
+      "is_kanal": "Подключение к канализации",
+      "created_start": "Создано с",
+      "created_end": "Создано по",
+      "technical_condition_id": "ТУ (ID)",
+      "inn": "ИНН",
+      "full_name": "ФИО/Название",
+      "invoice_id": "Счёт (ID)",
+      "payment_number": "Номер платежа",
+      "payment_date_start": "Дата платежа с",
+      "payment_date_end": "Дата платежа по",
+      "invoice_number": "Номер счёта",
+      "is_paid": "Оплачен",
+      "protocol_id": "Протокол (ID)",
+      "invoice_type": "Тип счёта",
+      "invoice_date_start": "Дата счёта с",
+      "invoice_date_end": "Дата счёта по"
+    },
+    "select": {
+      "status": {
+        "active": "Активен",
+        "inactive": "Неактивен",
+        "archived": "Архив",
+        "pending": "В ожидании",
+        "received": "Поступили",
+        "rejected": "Отклонено",
+        "approved": "Одобрено",
+        "contracted": "Заключено"
+      },
+      "stage": {
+        "draft": "Черновик",
+        "review": "На рассмотрении",
+        "approved": "Утверждено",
+        "done": "Завершено"
+      },
+      "invoice_type": {
+        "main": "Основной",
+        "paper_tu": "Оплата за бумагу ТУ"
+      }
+    },
+    "config": {
+      "formatOptions": {
+        "pdf": "PDF",
+        "xlsx": "Excel (XLSX)"
+      },
+      "entityOptions": {
+        "technical_conditions": "ТУ",
+        "entities": "Объекты",
+        "protocols": "Протоколы",
+        "customers": "Заказчики",
+        "payments": "Платежи",
+        "invoices": "Счета",
+        "applications": "Заявки"
+      },
+      "statusOptions": {
+        "active": "Активен",
+        "inactive": "Неактивен",
+        "archived": "Архив"
+      },
+      "stageOptions": {
+        "draft": "Черновик",
+        "review": "На рассмотрении",
+        "approved": "Утверждено",
+        "done": "Завершено"
+      },
+      "customerStatusOptions": {
+        "active": "Активен",
+        "rejected": "Отклонено"
+      },
+      "paymentStatusOptions": {
+        "pending": "В ожидании",
+        "received": "Поступили"
+      },
+      "invoiceTypeOptions": {
+        "main": "Основной",
+        "paper_tu": "Оплата за бумагу ТУ"
+      },
+      "applicationStatusOptions": {
+        "pending": "В ожидании",
+        "rejected": "Отклонено",
+        "approved": "Одобрено",
+        "contracted": "Заключено"
+      }
+    },
+    "presets": {
+      "label": "Шаблоны",
+      "select": "Выберите шаблон",
+      "save": "Сохранить шаблон",
+      "saveTitle": "Сохранить шаблон фильтров",
+      "saved": "Шаблон сохранён",
+      "applied": "Шаблон применён",
+      "entityRequired": "Сначала выберите сущность",
+      "name": "Название",
+      "nameReq": "Введите название",
+      "description": "Описание"
+    },
+    "exportHistory": "История экспорта"
+  },
+  "notFound": {
+    "subtitle": "Такой страницы не существует",
+    "backHome": "На главную"
+  },
+  "exportDataHistory": {
+    "byType": "По типу",
+    "byStatus": "По статусу",
+    "noPermission": "Недостаточно прав для просмотра отчётов",
+    "reexport": "Повторная выгрузка записи №{{id}}",
+    "deletedItem": "Запись №{{id}} удалена",
+    "columns": {
+      "date": "Дата",
+      "employee": "Сотрудник",
+      "dataType": "Тип данных",
+      "format": "Формат",
+      "actions": "Действия"
+    },
+    "dataTypes": {
+      "tu": "ТУ",
+      "requests": "Заявки",
+      "invoice": "Счет на оплату"
+    }
+  },
+  "technicalConditions": {
+    "filter": {
+      "hasInvoice": "Счёт",
+      "overdue": "Просроченные",
+      "dueInDays": "Дни до срока оплаты",
+      "tuWithLoads": "ТУ с увеличением нагрузок"
+    },
+    "presets": {
+      "select": "Выберите шаблон",
+      "save": "Сохранить шаблон",
+      "saveTitle": "Сохранить шаблон фильтров",
+      "name": "Название",
+      "nameReq": "Введите название",
+      "description": "Описание",
+      "saved": "Шаблон сохранён",
+      "deleted": "Шаблон удалён",
+      "deleteConfirm": "Удалить шаблон?"
+    }
+  },
+  "customers": {
+    "columns": {
+      "number": "№",
+      "customer": "Заказчик",
+      "categories": "Категории",
+      "passportData": "Паспортные данные",
+      "registrationDate": "Дата регистрации",
+      "address": "Адрес",
+      "contacts": "Контакты",
+      "status": "Статус",
+      "action": "Действие"
+    },
+    "category": {
+      "legalShort": "Юр. лицо",
+      "physicalShort": "Физ. лицо",
+      "legalFull": "Юридическое лицо",
+      "physicalFull": "Физическое лицо"
+    },
+    "status": {
+      "active": "Активен",
+      "inactive": "Не активен"
+    },
+    "details": {
+      "tabs": {
+        "data": "Данные",
+        "objects": "Объекты",
+        "applications": "Заявки",
+        "documents": "Документы",
+        "payments": "Платежи"
+      },
+      "loadError": "Ошибка загрузки данных заказчика",
+      "notCreated": "Не создано",
+      "details": "Детали",
+      "showOnMap": "Показать на карте",
+      "parameters": "Параметры",
+      "columns": {
+        "index": "№",
+        "object": "Объект",
+        "objectName": "Наименование объекта",
+        "address": "Адрес",
+        "contact": "Контакт",
+        "parameters": "Параметры",
+        "status": "Статус",
+        "tu": "ТУ",
+        "tuStatus": "Статус ТУ",
+        "objectStatus": "Статус объекта",
+        "createdAt": "Дата создания",
+        "actions": "Действия"
+      },
+      "empty": {
+        "applications": "У клиента нет заявок",
+        "objects": "У клиента нет объектов"
+      },
+      "paymentsSummary": {
+        "totalAmount": "Общая сумма платежей",
+        "totalCount": "Всего платежей"
+      },
+      "contract": {
+        "contractDate": "Дата договора",
+        "tuStatus": "Статус заявок и выдачи ТУ",
+        "cost": "Стоимость по договору"
+      }
+    },
+    "messages": {
+      "created": "Заказчик успешно добавлен",
+      "createError": "Ошибка при создании заказчика",
+      "updated": "Заказчик успешно обновлен",
+      "updateError": "Ошибка при обновлении заказчика"
+    }
+  },
+  "customerForm": {
+    "labels": {
+      "type": "Выбор типа",
+      "individual": "Физическое лицо",
+      "legal": "Юридическое лицо",
+      "addressReg": "Адрес регистрации",
+      "status": "Статус",
+      "companyName": "Название компании",
+      "ogrn": "ОГРН",
+      "passportData": "Паспортные данные",
+      "contactData": "Контактные данные",
+      "fio": "ФИО"
+    },
+    "placeholders": {
+      "address": "Введите адрес",
+      "selectStatus": "Выберите статус",
+      "companyName": "Название компании",
+      "ogrn": "789010",
+      "passportData": "AB123456",
+      "contactData": "0999700700",
+      "fullName": "ФИО",
+      "inn": "123456789010"
+    },
+    "validation": {
+      "pleaseSelectType": "Пожалуйста, выберите тип!",
+      "pleaseEnterAddress": "Пожалуйста, введите адрес!",
+      "pleaseSelectStatus": "Пожалуйста, выберите статус!"
+    }
+  },
+  "formulas": {
+    "add": "Добавить формулу",
+    "searchPlaceholder": "Поиск по названию...",
+    "foundCount": "Найдено формул: {{count}}",
+    "loading": "Загрузка формул...",
+    "nothingFound": "По вашему запросу ничего не найдено",
+    "notFound": "Формулы не найдены",
+    "changeSearch": "Попробуйте изменить параметры поиска",
+    "startCreate": "Начните с создания первой формулы",
+    "coefficient": "Коэффициент",
+    "deleteTitle": "Удаление формулы",
+    "deleteConfirm": "Вы уверены, что хотите удалить формулу \"{{title}}\"?",
+    "form": {
+      "modals": {
+        "addTitle": "Добавление формулы",
+        "editTitle": "Редактирование формулы"
+      },
+      "labels": {
+        "title": "Название *",
+        "coefficient": "Коэффициент *"
+      },
+      "placeholders": {
+        "fill": "Заполните"
+      },
+      "validation": {
+        "titleRequired": "Введите название формулы",
+        "titleMin": "Название должно содержать минимум 2 символа",
+        "titleMax": "Название не должно превышать 100 символов",
+        "coefRequired": "Введите коэффициент",
+        "coefNonNegative": "Коэффициент не может быть отрицательным",
+        "coefTooLarge": "Коэффициент слишком большой"
+      }
+    },
+    "messages": {
+      "created": "Формула успешно создана",
+      "updated": "Формула успешно обновлена",
+      "deleted": "Формула успешно удалена",
+      "createError": "Ошибка при создании формулы",
+      "updateError": "Ошибка при обновлении формулы",
+      "deleteError": "Ошибка при удалении формулы",
+      "loadError": "Ошибка загрузки формул"
+    }
+  },
+  "objects": {
+    "searchPlaceholder": "Найти объекты",
+    "notFound": "Объекты не найдены",
+    "add": "Добавить объект",
+    "messages": {
+      "created": "Объект успешно создан",
+      "createError": "Ошибка при создании объекта",
+      "loadError": "Ошибка загрузки объектов",
+      "updated": "Объект успешно обновлен",
+      "updateError": "Ошибка при обновлении объекта"
+    }
+  },
+  "tuRejectModal": {
+    "title": "Отказ ТУ",
+    "labels": {
+      "reason": "Причина",
+      "comment": "Комментарий"
+    },
+    "defaultReason": "Отсутствие необходимых документов",
+    "placeholders": {
+      "reason": "Выберите причину(ы)",
+      "comment": "Напишите подробнее причину..."
+    },
+    "buttons": {
+      "upload": "Загрузить файл",
+      "back": "Назад",
+      "reject": "Отказать"
+    }
+  },
+  "applicationDetails": {
+    "tabs": {
+      "data": "Данные",
+      "documents": "Документы"
+    },
+    "buttons": {
+      "pdf": "PDF",
+      "edit": "Редактировать",
+      "createTu": "Оформление ТУ",
+      "rejectTu": "Отказать ТУ",
+      "addFile": "Добавить файл"
+    },
+    "loadError": "Ошибка загрузки данных заявки",
+    "labels": {
+      "objectName": "Наименование объекта",
+      "registrationDate": "Дата регистрации",
+      "customer": "Заказчик",
+      "address": "Адрес",
+      "waterRequired": "Количество водопроводной воды",
+      "wastewater": "Количество стоков",
+      "status": "Статус"
+    },
+    "status": {
+      "approved": "Одобрено",
+      "rejected": "Отказано",
+      "pending": "В ожидании",
+      "tuConcluded": "ТУ заключён"
+    },
+    "documentsTitle": "Документы",
+    "table": {
+      "name": "Название",
+      "uploadDate": "Дата загрузки",
+      "actions": "Действия"
+    },
+    "noDocs": "Нет загруженных документов",
+    "refusal": {
+      "title": "Причины отказа",
+      "causes": "Причины",
+      "comment": "Комментарий",
+      "date": "Дата",
+      "files": "Файлы",
+      "untitledFile": "файл",
+      "noData": "Данных об отказе нет"
+    },
+    "messages": {
+      "approveSuccess": "Заявка одобрена",
+      "approveError": "Ошибка при одобрении заявки",
+      "rejectSuccess": "Заявка отклонена",
+      "rejectError": "Ошибка при отклонении заявки",
+      "fileDeleted": "Файл удален",
+      "fileDeleteError": "Не удалось удалить файл"
+    }
+  },
+  "architecture": {
+    "titles": {
+      "documentsToUpload": "Документы для загрузки",
+      "additionalDocuments": "Дополнительные документы",
+      "createDocument": "Создать документ"
+    },
+    "buttons": {
+      "createDocument": "Создать документ",
+      "create": "Создать"
+    },
+    "inputs": {
+      "documentName": "Название документа"
+    },
+    "messages": {
+      "created": "Документ успешно создан",
+      "createError": "Ошибка при создании документа"
+    }
+  },
+  "architectureDetails": {
+    "titles": {
+      "uploadDocument": "Загрузка документа",
+      "delete": "Удаление"
+    },
+    "confirmDelete": "Вы действительно хотите удалить документ?",
+    "buttons": {
+      "cancel": "Отменить",
+      "delete": "Удалить"
+    },
+    "dragHint": "Перетащите файлы сюда для загрузки"
+  },
+  "refusal": {
+    "confirmTitle": "Вы уверены, что хотите продолжить?",
+    "confirmContent": "Найдены отказы по клиенту или объекту. Продолжить отправку заявки?",
+    "confirmContentCustomer": "Найдены отказы по заказчику. Продолжить отправку заявки?",
+    "confirmContentEntity": "Найдены отказы по объекту. Продолжить отправку заявки?",
+    "confirmContentBoth": "Найдены отказы по заказчику и объекту. Продолжить отправку заявки?",
+    "customerTitle": "Отказы по заказчику",
+    "entityTitle": "Отказы по объекту",
+    "noCauses": "Причины не указаны",
+    "tuCustomerTitle": "Найдены ТУ по заказчику",
+    "tuEntityTitle": "Найдены ТУ по объекту",
+    "confirmContentTuCustomer": "Найдены связанные ТУ по заказчику. Продолжить отправку заявки?",
+    "confirmContentTuEntity": "Найдены связанные ТУ по объекту. Продолжить отправку заявки?",
+    "confirmContentTuBoth": "Найдены связанные ТУ по заказчику и объекту. Продолжить отправку заявки?"
+  },
+  "applicationsCreate": {
+    "uploadModal": {
+      "title": "Прикрепить файл",
+      "dropHint": "Перетащите файлы сюда для загрузки",
+      "validation": {
+        "attachFile": "Пожалуйста, прикрепите файл"
+      }
+    },
+    "form": {
+      "labels": {
+        "inn": "ИНН",
+        "customer": "Заказчик",
+        "object": "Объект",
+        "street": "Улица",
+        "house": "Дом",
+        "waterAmountRequired": "Требуемое количество воды",
+        "pressureRequired": "Требуемый напор",
+        "waterPurpose": "Назначение воды",
+        "firefightingExpenses": "Расходы воды на внутр. пожаротушение",
+        "firefightingExpensesOuter": "Расходы воды на наруж. пожаротушение",
+        "coordinates": "Координаты объекта",
+        "coordX": "Координата X",
+        "coordY": "Координата Y"
+      },
+      "placeholders": {
+        "enterInn": "Введите ИНН",
+        "fullName": "Имя и фамилия",
+        "companyName": "Название компании",
+        "address": "Адрес",
+        "houseNumberShort": "№",
+        "enterValue": "Введите значение",
+        "waterPurpose": "Предназначение воды",
+        "xPlaceholder": "123",
+        "yPlaceholder": "321"
+      },
+      "validation": {
+        "required": "Обязательное поле",
+        "number": "Введите число",
+        "innLength": "ИНН должен состоять из 14 цифр"
+      }
+    },
+    "buttons": {
+      "attach": "Прикрепить файл",
+      "attachedCount": "Файлов прикреплено: {{count}}",
+      "submit": "Отправить"
+    },
+    "messages": {
+      "created": "Заявка успешно создана",
+      "createError": "Ошибка при создании заявки",
+      "customerOrObjectError": "Ошибка: не удалось определить заказчика или объект",
+      "selectCoordinates": "Пожалуйста, выберите координаты на карте",
+      "invalidCoordinates": "Некорректные координаты",
+      "invalidCoordinatesToSend": "Ошибка: невалидные координаты для отправки",
+      "coordinatesSelected": "Координаты выбраны: {{lat}}, {{lng}}"
+    }
+  },
+  "folderDetail": {
+    "tabs": {
+      "uploaded": "Загруженные",
+      "recent": "Недавние"
+    },
+    "messages": {
+      "uploadSuccess": "Файлы успешно загружены",
+      "uploadError": "Ошибка при загрузке файлов"
+    },
+    "placeholder": {
+      "recent": "Здесь будут \"Недавние\""
+    },
+    "columns": {
+      "title": "Название",
+      "uploadedAt": "Дата загрузки",
+      "actions": "Действия"
+    },
+    "aria": {
+      "download": "Скачать файл",
+      "delete": "Удалить файл"
+    },
+    "prefixes": {
+      "tu": "ТУ {{id}}",
+      "folder": "Папка {{folder}}",
+      "document": " > Документ {{id}}"
+    }
+  },
+  "applications": {
+    "tabs": {
+      "all": "Все",
+      "accepted": "Одобрено",
+      "pending": "В ожидании",
+      "rejected": "Отказано"
+    },
+    "columns": {
+      "id": "№ заявки",
+      "date": "Дата регистрации",
+      "customer": "Заказчик",
+      "address": "Адрес",
+      "objectName": "Наименование объекта",
+      "waterAmount": "Количество водопроводной воды",
+      "wastewaterAmount": "Количество стоков",
+      "status": "Статус",
+      "action": "Действие"
+    },
+    "statusTag": {
+      "approved": "Одобрено",
+      "rejected": "Отказано",
+      "pending": "В ожидании",
+      "contracted": "Заключено"
+    },
+    "actions": {
+      "reject": "Отказать",
+      "approve": "Одобрить",
+      "create": "Оформление",
+      "goToTu": "Перейти ТУ",
+      "decline": "Отказ"
+    }
+  },
+  "changeHistory": {
+    "status": {
+      "created": "Создано",
+      "deleted": "Удалено",
+      "updated": "Изменено"
+    },
+    "columns": {
+      "id": "ID",
+      "user": "Сотрудник",
+      "date": "Дата",
+      "type": "Тип",
+      "field": "Поле",
+      "oldValue": "Старое значение",
+      "newValue": "Новое значение"
+    }
+  },
+  "protocolDetail": {
+    "tabs": {
+      "protocol": "Протокол",
+      "payments": "Платежи"
+    },
+    "buttons": {
+      "downloadProtocol": "Скачать протокол",
+      "closeInvoice": "Закрыть счёт",
+      "generateInvoice": "Сгенерировать счет на оплату",
+      "downloadInvoice": "Скачать счет"
+    },
+    "paid": "Оплачено:",
+    "invoice": {
+      "title": "Счет на оплату",
+      "uploadReceipt": "Загрузить чек об оплате",
+      "number": "Номер"
+    },
+    "payment": {
+      "columns": {
+        "paymentNum": "№ платежа",
+        "date": "Дата оплаты",
+        "amount": "Сумма",
+        "source": "Источник",
+        "status": "Статус"
+      },
+      "status": {
+        "received": "Поступили",
+        "pending": "В ожидании",
+        "failed": "Отклонён"
+      }
+    }
+  },
+  "addTuForms": {
+    "titles": {
+      "main": "Основная информация",
+      "techParams": "Технические параметры",
+      "connection": "Подключение",
+      "finance": "Финансы"
+    },
+    "form": {
+      "labels": {
+        "requestSource": "Источник запроса",
+        "requestNumber": "Номер запроса",
+        "requestDate": "Дата запроса",
+        "customer": "Заказчик",
+        "objectName": "Наименование объекта",
+        "address": "Место нахождения объекта",
+        "techConditionType": "Тип технического условия",
+        "eni": "ЕНИ",
+        "sewageAmount": "Количество стоков",
+        "waterRequired": "Требуемое количество воды",
+        "pressureRequired": "Требуемый свободный напор",
+        "fireFighting": "Пожаротушение (внутреннее/наружное)",
+        "stage": "Стадия",
+        "formula": "Формулы",
+        "isWater": "Подключение к воде",
+        "isKanal": "Подключение к канализации",
+        "connectionTarget": "К чему подключается объект",
+        "streetPass": "Проходящий по ул.",
+        "collector": "Коллектор Д",
+        "waterPipe": "Водопровод",
+        "sewer": "Канализация",
+        "fireInput1": "Пожарный ввод 1",
+        "fireInput2": "Пожарный ввод 2",
+        "notes": "Примечания и комментарии",
+        "paymentPaper": "Оплата за ТУ (за бумагу)",
+        "paymentConnection": "Оплата за подключение",
+        "status": "Статус оплаты",
+        "paymentAmount": "Сумма оплаты",
+        "paymentDeadline": "Срок оплаты ТУ",
+        "paymentInvoiceNumber": "№ счета на оплату",
+        "fireFightingOuter": "Пожаротушение наружное",
+        "fireFightingInner": "Пожаротушение внутреннее",
+        "collectorDiameter": "Трубопровод Д",
+        "provideWater": "Предусмотреть водопровод",
+        "provideSewer": "Предусмотреть канализацию",
+        "freePressureInput1": "Свободный напор ввод 1",
+        "waterPipeDiameter1": "Водопр Д 1",
+        "freePressureInput2": "Свободный напор ввод 2",
+        "waterPipeDiameter2": "Водопр Д 2"
+      },
+      "placeholders": {
+        "requestSource": "Название объекта",
+        "requestNumber": "12345",
+        "requestDate": "ГГГГ-ММ-ДД",
+        "customer": "ФИО или организация",
+        "objectName": "Жилой дом",
+        "address": "Адрес объекта",
+        "techConditionType": "Тип ТУ",
+        "eni": "1234",
+        "sewageAmount": "Например: 2",
+        "waterRequired": "123",
+        "pressureRequired": "10",
+        "fireFighting": "Жилой дом",
+        "stage": "Выберите стадию",
+        "formula": "Формулы",
+        "connectionTarget": "Название объекта",
+        "streetPass": "Проходящий по ул.",
+        "collector": "01:00|12:34567",
+        "waterPipe": "Проходящий по ул.",
+        "sewer": "01:00|12:34567",
+        "fireInput1": "ввод 1",
+        "fireInput2": "ввод 2",
+        "notes": "Комментарий",
+        "status": "Выберите статус",
+        "paymentAmount": "1000",
+        "paymentPaper": "Введите сумму",
+        "paymentConnection": "Введите сумму",
+        "paymentDeadline": "ГГГГ-ММ-ДД",
+        "invoiceNumber": "1234567890",
+        "diameter": "Диаметр",
+        "selectOption": "Выберите вариант",
+        "provideWater": "Предусмотреть водопровод",
+        "provideSewer": "Предусмотреть канализацию",
+        "freePressureInput1": "Свободный напор ввод 1",
+        "waterPipeDiameter1": "Водопр Д 1",
+        "freePressureInput2": "Свободный напор ввод 2",
+        "waterPipeDiameter2": "Водопр Д 2"
+      },
+      "validation": {
+        "specifySource": "Укажите источник",
+        "specifyRequestNumber": "Укажите номер запроса",
+        "specifyRequestDate": "Укажите дату запроса",
+        "specifyCustomer": "Укажите заказчика",
+        "specifyObjectName": "Укажите наименование объекта",
+        "specifyAddress": "Укажите адрес",
+        "selectType": "Выберите тип",
+        "required": "Обязательное поле",
+        "paymentDeadlineMin": "Не ранее, чем через 3 месяца"
+      },
+      "options": {
+        "stages": {
+          "draft": "Черновик",
+          "review": "На рассмотрении",
+          "approved": "Утверждено",
+          "done": "Завершено"
+        },
+        "status": {
+          "active": "Активен",
+          "inactive": "Неактивен",
+          "archived": "Архивирован"
+        },
+        "connectionType": {
+          "existing": "существующий",
+          "built": "построенный"
+        }
+      },
+      "buttons": {
+        "change": "Изменить",
+        "submit": "Готово"
+      }
+    },
+    "messages": {
+      "loadTuError": "Не удалось получить данные ТУ.",
+      "createTuSuccess": "Техническое условие успешно создано!",
+      "createTuError": "Произошла ошибка при создании ТУ."
+    }
+  },
+  "objectForm": {
+    "labels": {
+      "title": "Название объекта",
+      "addressStreet": "Адрес",
+      "addressNumber": "Номер дома",
+      "cadastralNumber": "Кадастровый номер",
+      "type": "Тип объекта",
+      "usageType": "Вид использования",
+      "status": "Статус"
+    },
+    "placeholders": {
+      "title": "Название объекта",
+      "addressStreet": "Адрес",
+      "addressNumber": "Номер дома",
+      "cadastralNumber": "01:001:1234567",
+      "type": "Жилой дом",
+      "usageType": "Жилой дом",
+      "status": "Выберите статус"
+    },
+    "validation": {
+      "titleRequired": "Введите название объекта",
+      "addressRequired": "Введите адрес",
+      "cadastralRequired": "Введите кадастровый номер",
+      "statusRequired": "Выберите статус"
+    },
+    "buttons": {
+      "cancel": "Назад",
+      "add": "Добавить"
+    }
+  },
+  "objectCard": {
+    "more": "Подробнее",
+    "createdAt": "Дата создания",
+    "address": "Адрес",
+    "cadastral": "Кадастр",
+    "status": "Статус"
+  },
+  "yandexMap": {
+    "labels": {
+      "request": "Заявка",
+      "address": "Адрес",
+      "status": "Статус",
+      "stage": "Этап"
+    }
+  },
+  "mapPointSelector": {
+    "title": "Выбор точки на карте",
+    "hint": {
+      "dragToMove": "Перетащите для изменения позиции"
+    },
+    "errors": {
+      "initMap": "Ошибка инициализации карты",
+      "loadMap": "Не удалось загрузить карту",
+      "loadMapTitle": "Ошибка загрузки карты"
+    },
+    "messages": {
+      "timeout": "Таймаут загрузки карты",
+      "selectPointFirst": "Сначала выберите точку на карте",
+      "saved": "Координаты сохранены",
+      "saveError": "Ошибка при сохранении",
+      "cleared": "Выбор очищен"
+    },
+    "loading": {
+      "preparing": "Подготовка...",
+      "loadingMap": "Загрузка карты...",
+      "scriptLoaded": "Скрипт загружен...",
+      "initializingMap": "Инициализация карты...",
+      "loadError": "Ошибка загрузки",
+      "loading": "Загрузка..."
+    },
+    "actions": {
+      "reloadPage": "Перезагрузить страницу",
+      "clear": "Очистить",
+      "tryAgain": "Попробовать снова"
+    },
+    "card": {
+      "clickToSelect": "Кликните по карте для выбора координат",
+      "selectedCoordinates": "Выбранные координаты"
+    },
+    "labels": {
+      "address": "Адрес"
+    }
+  },
+  "paymentsModal": {
+    "title": "Добавить платеж",
+    "labels": {
+      "paymentNumber": "Номер платежа",
+      "paymentDate": "Дата платежа",
+      "amount": "Сумма платежа",
+      "source": "Источник платежа",
+      "status": "Статус платежа",
+      "optionalReceiptFile": "Файл чека (необязательно)"
+    },
+    "placeholders": {
+      "paymentNumber": "Введите номер платежа",
+      "date": "Выберите дату",
+      "amount": "Введите сумму",
+      "source": "Например: 1С",
+      "status": "Выберите статус"
+    },
+    "buttons": {
+      "uploadReceipt": "Загрузить чек",
+      "replaceFile": "Заменить файл",
+      "cancel": "Отмена",
+      "submit": "Добавить платеж"
+    },
+    "messages": {
+      "success": "Платеж успешно добавлен",
+      "error": "Ошибка при добавлении платежа",
+      "fileTypeError": "Можно загружать только изображения, PDF или документы",
+      "fileSizeError": "Файл должен быть меньше 10MB",
+      "fileSelectedPrefix": "Выбран файл:"
+    },
+    "validation": {
+      "required": "Поле обязательно для заполнения",
+      "amountPositive": "Сумма должна быть больше 0"
+    }
+  },
+  "protocolDoc": {
+    "companyName": "МП \"Бишкектеплосеть\"",
+    "takeaway": "На вынос",
+    "vikCostLabel": "Ст‑ть подключ. ВиК сом(без НДС)",
+    "tuWater": "ТУ водопровод",
+    "tuSewer": "ТУ канализация",
+    "totalWithoutVat": "Всего (без НДС)",
+    "extraText": "Дополнительный текст или контент протокола..."
+  },
+  "protocolEdit": {
+    "title": "Редактирование протокола",
+    "sections": {
+      "main": "Основные данные",
+      "cost": "Стоимость",
+      "taxes": "НДС и налоги",
+      "total": "Итоговая сумма"
+    },
+    "fields": {
+      "load": "Нагрузка",
+      "coefficient": "Коэффициент",
+      "waterPrice": "Стоимость водопровода",
+      "kanalPrice": "Стоимость канализации",
+      "totalWater": "Общая сумма водопровода",
+      "totalKanal": "Общая сумма канализации",
+      "ndsMain": "НДС основной",
+      "ndsPaper": "НДС бумажные работы",
+      "nspMain": "НСП основной",
+      "nspPaper": "НСП бумажные работы"
+    },
+    "placeholders": {
+      "enterLoad": "Введите нагрузку",
+      "enterCoeff": "Введите коэффициент",
+      "enterCost": "Введите стоимость",
+      "enterTotal": "Введите общую сумму"
+    }
+  },
+  "notification": {
+    "active": "Старые",
+    "new": "Новые",
+    "assignResponsible": "Назначить ответственного",
+    "time": {
+      "weekAgo": "неделю назад"
+    },
+    "markAllAsRead": "Отметьте все как прочитанные",
+    "seeAll": "Смотреть все",
+    "date": {
+      "today": "Сегодня",
+      "yesterday": "Вчера",
+      "lastMonth": "За последний месяц",
+      "earlier": "Ранее"
+    },
+    "open": "Открыть",
+    "read": "Прочитано"
+  },
+  "paymentsTab": {
+    "buttons": {
+      "add": "Добавить",
+      "pdf": "PDF",
+      "receipt": "Чек",
+      "closeInvoice": "Закрыть счёт"
+    },
+    "table": {
+      "empty": "Нет платежей",
+      "actions": "Действия"
+    },
+    "of": "из",
+    "headingByInvoices": "Платежи по счетам",
+    "messages": {
+      "loadErrorTitle": "Ошибка загрузки",
+      "loadErrorDesc": "Не удалось загрузить данные платежей",
+      "invoiceFullyPaid": "Счёт полностью оплачен"
+    }
+  },
+  "accounting": {
+    "errors": {
+      "loadTitle": "Ошибка загрузки",
+      "loadDesc": "Не удалось загрузить данные бухгалтерии",
+      "protocolIdNotFound": "Не найден ID протокола",
+      "endpointNotFound": "Эндпоинт для генерации счета не найден",
+      "badRequest": "Неверные данные для генерации счета",
+      "serverError": "Ошибка сервера при генерации счета",
+      "downloadProtocolError": "Ошибка при скачивании протокола",
+      "invoicesLoadTitle": "Ошибка загрузки счетов",
+      "invoicesLoadDesc": "Возможно, счета еще не созданы или неверный URL API",
+      "invoicesWarnTitle": "Проблема с загрузкой счетов",
+      "invoicesWarnDesc": "Проверьте правильность API endpoint'а",
+      "protocolUpdateError": "Ошибка при обновлении протокола"
+    },
+    "labels": {
+      "paid": "Оплачен",
+      "pending": "Ожидает оплаты",
+      "invoicesNotFound": "Счета не найдены",
+      "waterSupply": "Водоснабжение",
+      "sewer": "Канализация",
+      "type": "Тип",
+      "status": "Статус",
+      "total": "Итого",
+      "invoiceNumber": "Номер счёта"
+    },
+    "invoiceTypeLabels": {
+      "main": "Основной счет",
+      "paper_tu": "Выдача тех условия"
+    },
+    "protocol": {
+      "nsp": "НСП",
+      "nds": "НДС",
+      "paperWorkWater": "Выдача тех условия (водопровод)",
+      "paperWorkSewer": "Выдача тех условия (канализация)",
+      "waterConnectNoTaxes": "Ст‑ть подключ. водопровода (без НДС и НСП)",
+      "sewerConnectNoTaxes": "Ст‑ть подключ. канализации (без НДС и НСП)",
+      "nspWaterPaper": "НСП водопровод",
+      "nspSewerPaper": "НСП канализация",
+      "nspTotalPaper": "НСП общий",
+      "ndsWaterPaper": "НДС водопровод",
+      "ndsSewerPaper": "НДС канализация",
+      "ndsTotalPaper": "НДС общий"
+    },
+    "sections": {
+      "mainCalculations": "Основные расчеты",
+      "issueTu": "Выдача технических условий"
+    },
+    "messages": {
+      "generateInvoiceSuccess": "Счет успешно сгенерирован",
+      "invoiceFileUnavailable": "Файл счета недоступен для скачивания",
+      "protocolDownloaded": "Протокол успешно скачан",
+      "needCreateInvoiceFirst": "Для просмотра платежей необходимо сначала создать счет",
+      "paidTag": "(Оплачено)",
+      "protocolUpdated": "Протокол успешно обновлен",
+      "updatingInvoices": "Обновляем счета с новыми данными...",
+      "protocolRegeneratedInvoices": "Протокол обновлен и счета перегенерированы с новыми данными",
+      "invoicesUpdateWarning": "Протокол обновлен, но возникла ошибка при обновлении счетов",
+      "generateInvoiceError": "Ошибка при генерации счета"
+    }
+  },
+  "tyImport": {
+    "title": "Импорт технических условий из Excel",
+    "steps": {
+      "selectFile": "Выбор файла",
+      "selectFileDesc": "Загрузите Excel файл",
+      "processing": "Обработка",
+      "processingDesc": "Импорт данных",
+      "result": "Результат",
+      "resultDesc": "Просмотр результатов"
+    },
+    "upload": {
+      "cardTitle": "Загрузка файла",
+      "dragTextStrong": "Нажмите или перетащите файл в эту область",
+      "dragHint": "Поддерживаются файлы формата .xlsx и .xls (до 10MB)",
+      "alertTitle": "Важно!",
+      "alertDescription": "Убедитесь, что ваш Excel файл содержит все необходимые колонки и правильно отформатирован"
+    },
+    "requirements": {
+      "cardTitle": "Требования к файлу",
+      "list": {
+        "item1": "Файл должен быть в формате .xlsx или .xls",
+        "item2": "Первая строка должна содержать заголовки колонок",
+        "item3": "Максимальный размер файла: 10MB",
+        "item4": "Пустые строки будут пропущены",
+        "item5": "Статус всех ТУ будет установлен в \"Архивный\"",
+        "item6": "Стадия будет установлена в \"Завершено\""
+      }
+    },
+    "processingFile": {
+      "cardTitle": "Обработка файла",
+      "processingFile": "Обрабатывается файл: {{name}}",
+      "size": "({{size}})",
+      "importing": "Импортируем данные...",
+      "preparing": "Подготовка..."
+    },
+    "results": {
+      "cardTitle": "Результаты импорта",
+      "createdTu": "Создано ТУ",
+      "createdIds": "ID записей",
+      "errors": "Ошибок",
+      "successTag": "Импорт успешен",
+      "errorTag": "Импорт с ошибками",
+      "createdTuPrefix": "Созданы ТУ",
+      "archivedTag": "Все ТУ добавлены в архив",
+      "createdTuCardTitle": "Созданные технические условия ({{count}})",
+      "createdIdsPrefix": "ID созданных ТУ:",
+      "tuLabel": "ТУ #{{id}}",
+      "showingFirst": "Показаны первые записи. Всего создано: {{count}} ТУ"
+    },
+    "errors": {
+      "cardTitle": "Ошибки импорта ({{count}})",
+      "downloadReport": "Скачать отчет",
+      "alertTitle": "Обнаружены ошибки",
+      "alertDesc": "Строки с ошибками были пропущены. Исправьте их в исходном файле и повторите импорт.",
+      "table": {
+        "index": "№",
+        "description": "Описание ошибки"
+      }
+    },
+    "actions": {
+      "importAnother": "Импортировать еще один файл",
+      "goToArchive": "Перейти к архиву ТУ"
+    },
+    "excelFormat": {
+      "cardTitle": "Формат Excel файла",
+      "intro": "Ваш Excel файл должен содержать следующие колонки:",
+      "columnsTable": {
+        "title": "Название колонки",
+        "description": "Описание",
+        "example": "Пример",
+        "requiredTag": "обязательно"
+      }
+    },
+    "messages": {
+      "importSuccess": "{{message}} Создано ТУ: {{count}}",
+      "importWarning": "{{message}}. Обнаружены ошибки.",
+      "importError": "Произошла ошибка при импорте файла",
+      "reportDownloaded": "Отчет об ошибках скачан"
+    },
+    "excel": {
+      "columns": {
+        "tu_number": {
+          "title": "№ТУ",
+          "description": "Номер технического условия",
+          "example": "ТУ-001-2024"
+        },
+        "registration_date": {
+          "title": "Дата регистр.",
+          "description": "Дата регистрации",
+          "example": "15.01.2024"
+        },
+        "customer": {
+          "title": "Заказчик",
+          "description": "Имя заказчика",
+          "example": "ООО \"Строй Компани\""
+        },
+        "address": {
+          "title": "Адрес",
+          "description": "Адрес объекта",
+          "example": "г. Бишкек, ул. Манаса, 45"
+        },
+        "object_name": {
+          "title": "Наименование объекта",
+          "description": "Описание объекта",
+          "example": "Жилой дом"
+        },
+        "water_quantity": {
+          "title": "Количество воды",
+          "description": "Объем воды",
+          "example": "15.5"
+        },
+        "sewage_quantity": {
+          "title": "Количество стоков",
+          "description": "Объем стоков",
+          "example": "12.0"
+        },
+        "contract_info": {
+          "title": "№ и дата договора на оплату за ТУ и разреш.",
+          "description": "Номер и дата договора",
+          "example": "Договор №123 от 10.01.2024"
+        },
+        "invoice_number": {
+          "title": "№счета на оплату",
+          "description": "Номер счета",
+          "example": "СЧ-456"
+        },
+        "payment_amount": {
+          "title": "Сумма оплаты за ТУ и разреш.",
+          "description": "Сумма к оплате",
+          "example": "25000"
+        },
+        "payment_date": {
+          "title": "Дата оплаты",
+          "description": "Дата оплаты",
+          "example": "20.01.2024"
+        }
+      }
+    }
+  }
+}

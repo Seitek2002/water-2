@@ -1,0 +1,16 @@
+.customer-form {
+  .ant-radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .ant-form-item {
+    width: 100%;
+  }
+
+  .ant-form-item .ant-form-item-label > label {
+    font-size: 16px;
+    font-weight: 500;
+    color: #0c1523;
+  }
+}

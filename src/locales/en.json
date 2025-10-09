@@ -1,0 +1,1599 @@
+{
+  "login": {
+    "title": "Bishkekwaterchannel",
+    "welcome": "Welcome",
+    "email": "Enter your email",
+    "emailPlaceholder": "Email must be at least 5 characters",
+    "description": "Enter your ID and password",
+    "password": "Password",
+    "passwordInput": "Enter password",
+    "passwordPlaceholder": "Password must be at least 5 characters",
+    "forgotPassword": "Forgot password?",
+    "authorizationError": "An error occurred during authorization:",
+    "login": "Log In",
+    "loading": "Logging in...",
+    "errors": {
+      "invalidCredentials": "Invalid email or password",
+      "forbidden": "Access denied",
+      "server": "Server error. Please try again later.",
+      "network": "Network error. Check your internet connection.",
+      "parse": "Unexpected response from server.",
+      "unknown": "Unknown error"
+    }
+  },
+  "dashboard": {
+    "pages": {
+      "geoportal": "Geoportal",
+      "ty": "TY",
+      "objects": "Objects",
+      "applications": "Applications",
+      "customers": "Customers",
+      "bills": "Payment invoices",
+      "architecture": "Architecture",
+      "export": "Export",
+      "formulas": "Formulas",
+      "archive": "Archive TU",
+      "protocols": "Protocols"
+    },
+    "panel": "Dashboard"
+  },
+  "routers": {
+    "historyOfLoads": "History of Load Increases",
+    "editTy": "TC Edit",
+    "addTu": "Add Technical Conditions",
+    "exportData": "Export Data",
+    "historyExportData": "History of Data Export",
+    "customerDetails": "Customer Details",
+    "editRequister": "Edit Customer",
+    "addCustomer": "Add Customer",
+    "document": "Document No.",
+    "protocol": "Protocol",
+    "ApplicationDetails": "Application No.",
+    "editApplication": "Edit Application",
+    "applicationCreate": "Create Application",
+    "profile": "Profile",
+    "technicalSpecificatio": "Technical Conditions",
+    "applicationDetails": "Application No.",
+    "tuNumberPrefix": "TU No.",
+      "changeHistory": "Change history",
+      "notifications": "Notifications",
+      "invoices": "Invoices",
+      "protocols": "Protocols"
+  },
+  "profile": {
+    "title": "Settings",
+    "currentLang": "Languages",
+    "description": "Used Language",
+    "selectLanguageHint": "Select your preferred display language",
+    "ru": "Russian",
+    "kg": "Kyrgyz",
+    "en": "English",
+    "account": "Account",
+    "logout": "Log Out",
+    "confirmTitle": "Logout Confirmation",
+    "confirmLogout": "Are you sure you want to log out?",
+    "yes": "Yes",
+    "no": "No",
+    "error": {
+      "title": "Profile load error",
+      "description": "Failed to load user data"
+    },
+    "userInfo": {
+      "title": "User information:",
+      "id": "User ID:",
+      "email": "Email:",
+      "phone": "Phone:",
+      "provider": "Provider:"
+    },
+    "user": "User"
+  },
+  "filterBar": {
+    "search": "Search",
+    "residential": "Residential",
+    "commercial": "Commercial",
+    "approved": "Approved",
+    "rejected": "Rejected",
+    "archived": "Archived",
+    "newOnesfirst": "Newest First",
+    "newOldFirst": "Oldest First",
+    "add": "Add",
+      "filters": "Filters",
+      "searchButton": "Search",
+    "byDate": "By Date",
+    "alphabetAsc": "A-Z",
+    "alphabetDesc": "Z-A",
+    "paymentDeadlineAsc": "Payment deadline: earlier",
+    "paymentDeadlineDesc": "Payment deadline: later",
+    "paymentDateAsc": "Payment date: earlier",
+    "paymentDateDesc": "Payment date: later",
+    "filter": {
+      "alphabet": "Alphabetically",
+      "type": "By Type",
+      "status": "Status",
+      "required": "Required field",
+      "date": "Date",
+      "category": "Category"
+    }
+  },
+  "geoportalFilters": {
+    "searchPlaceholder": "Search by name, address, or application number",
+    "dropdown": {
+      "type": "By type",
+      "status": "By status",
+      "date": "By date"
+    },
+    "type": {
+      "all": "All types",
+      "water": "Water supply",
+      "sewer": "Sewer",
+      "gas": "Gas pipeline",
+      "electric": "Power grid",
+      "other": "Other"
+    },
+    "status": {
+      "all": "All statuses",
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "date": {
+      "all": "All periods",
+      "month": "Last month",
+      "quarter": "Last 3 months",
+      "year": "Last year"
+    },
+    "messages": {
+      "type": "Filter by type: {{value}}",
+      "status": "Filter by status: {{value}}",
+      "date": "Filter by date: {{value}}"
+    }
+  },
+  "common": {
+    "refresh": "Refresh",
+    "downloadPdf": "Download PDF",
+    "delete": "Delete",
+    "upload": "Upload",
+    "pending": "Pending",
+    "status": "Status",
+    "required": "Required field",
+    "export": "Export",
+    "all": "All",
+    "download": "Download",
+    "uploadMore": "Upload more",
+    "inDevelopment": "In development",
+    "back": "Back",
+    "uploadFile": "Upload file",
+    "supportedFormatsHint": "Images, PDF, DOC/DOCX, XLS/XLSX are supported",
+    "bytes": "bytes",
+    "selectedFiles": "Selected files: {{count}}",
+    "errorPrefix": "Error: ",
+    "remaining": "Remaining",
+    "coordinates": "Coordinates",
+    "area": "Area",
+    "amountLabel": "Amount:",
+    "dateLabel": "Date:",
+    "dateStart": "Date from",
+    "dateEnd": "Date to",
+    "totalLabel": "Total:",
+    "save": "Save",
+    "edit": "Edit",
+    "cancel": "Cancel",
+    "continue": "Continue",
+    "latitude": "Latitude",
+    "longitude": "Longitude",
+    "comment": "Comment",
+    "optionalComment": "Comment (optional)",
+    "noData": "No data",
+    "error": "Error",
+    "reset": "Reset",
+    "advanced": "Advanced",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "geoportal": {
+    "errorLoad": "Failed to load data",
+    "dataRefreshed": "Data refreshed",
+    "apiError": "Failed to load data from the API. Please try again later.",
+    "tryAgain": "Try again",
+    "foundCount": "Found objects: {{count}} of {{total}}",
+    "resetFilters": "Reset filters",
+    "loading": "Loading map data..."
+  },
+  "objectDetail": {
+    "title": "Object details",
+    "titleUpdated": "Title updated",
+    "errorUpdateTitle": "Error updating title",
+    "confirmDeleteTitle": "Delete confirmation",
+    "confirmDeleteContent": "Are you sure you want to delete the object \"{{title}}\"? This action cannot be undone.",
+    "delete": "Delete",
+    "cancel": "Cancel",
+    "deleted": "Object deleted",
+    "errorDelete": "Error deleting object",
+    "invalidId": "Invalid ID",
+    "invalidIdDescription": "An incorrect object identifier is specified",
+    "backToList": "Back to list",
+    "notFound": "Object not found",
+    "loadError": "Loading error",
+    "notFoundDescription": "The object with the specified ID does not exist or has been deleted",
+    "loadErrorDescription": "Failed to load object information. Check your internet connection.",
+    "retry": "Retry",
+    "noData": "No data",
+    "noDataDescription": "No object data available",
+    "refresh": "Refresh"
+  },
+  "objectEdit": {
+    "buttons": {
+      "backToObjects": "Back to objects",
+      "cancel": "Cancel",
+      "save": "Save",
+      "edit": "Edit"
+    },
+    "labels": {
+      "contractDate": "Contract date",
+      "type": "Type",
+      "status": "Status",
+      "address": "Address",
+      "cadastralNumber": "Cadastral number",
+      "usageType": "Usage type",
+      "tuStatus": "TU status",
+      "coordinates": "Coordinates"
+    },
+    "placeholders": {
+      "pickDate": "Pick a date",
+      "objectType": "Object type",
+      "selectStatus": "Select status",
+      "street": "Street",
+      "house": "House",
+      "cadastralNumber": "Cadastral number",
+      "usageType": "Usage type",
+      "tuStatus": "TU status",
+      "latitude": "Latitude",
+      "longitude": "Longitude"
+    },
+    "validation": {
+      "enterTitle": "Enter object name",
+      "selectStatus": "Select status"
+    },
+    "messages": {
+      "updated": "Object updated",
+      "updateError": "Failed to update object"
+    },
+    "statusOptions": {
+      "active": "Active",
+      "inactive": "Inactive",
+      "pending": "Pending",
+      "rejected": "Rejected"
+    }
+  },
+  "historyOfLoads": {
+    "addLoad": "Add load",
+    "columns": {
+      "tu": "TU No.",
+      "collaborator": "Employee",
+      "loadAdded": "Added load",
+      "regDate": "Registration date",
+      "status": "Status"
+    },
+    "hint": {
+      "ty": "TC"
+    },
+    "messages": {
+      "addSuccess": "Load added",
+      "addError": "Failed to add load"
+    }
+  },
+  "tuDetails": {
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive",
+      "archived": "Archived"
+    },
+    "stage": {
+      "draft": "Draft",
+      "review": "In review",
+      "approved": "Approved",
+      "done": "Completed",
+      "unknown": "Unknown"
+    },
+    "act": {
+      "actions": {
+        "upload": "Upload act",
+        "toReview": "Send for review",
+        "approve": "Approve",
+        "finish": "Finish",
+        "download": "Download act"
+      },
+      "messages": {
+        "mustBeApproved": "Action is available only after TU is approved",
+        "statusUpdated": "Act status updated",
+        "statusUpdateFailed": "Failed to change act status",
+        "fileRequired": "Select an act file",
+        "uploadSuccess": "Act uploaded"
+      },
+      "modal": {
+        "title": "Upload act",
+        "hint": "Upload a file for status: {{status}}"
+      },
+      "status": {
+        "draft": "Draft",
+        "review": "In review",
+        "approved": "Approved",
+        "done": "Completed",
+        "none": "No act"
+      },
+      "confirm": {
+        "changeTitle": "Change act status?",
+        "changeContent": "Are you sure you want to change the act status?",
+        "createTitle": "Create confirmation act?",
+        "createContent": "An act will be created. Continue?"
+      }
+    },
+    "titles": {
+      "objectName": "Object name",
+      "applicationInfo": "Application information",
+      "additionalCharacteristics": "Additional characteristics",
+      "payment": "Payment",
+      "customer": "Customer",
+      "objectLocation": "Object location",
+      "waterRequired": "Required water supply",
+      "pressureRequired": "Required pressure",
+      "sewageAmount": "Wastewater amount",
+      "geoportalRequest": "Geoportal creation request",
+      "savedGeoportalRequest": "Saved geoportal request",
+      "waterSupply": "Water supply",
+      "sewer": "Sewer",
+      "otherDocuments": "Other documents",
+      "confirmationAct": "Confirmation act"
+    },
+    "labels": {
+      "requestNumber": "Application number:",
+      "requestDate": "Application date:",
+      "requestSource": "Request source:",
+      "inn": "INN:",
+      "connectionTarget": "Connection target:",
+      "streetPass": "Street pass:",
+      "collector": "Collector:",
+      "fireFighting": "Fire fighting:",
+      "fireInput1": "Fire input 1:",
+      "fireInput2": "Fire input 2:",
+      "notes": "Notes:",
+      "paymentInvoiceNumber": "Invoice number:",
+      "paymentPaper": "Paperwork amount:",
+      "paymentConnection": "Connection amount:",
+      "paymentAmount": "Total amount:",
+      "paymentDeadline": "Payment deadline:",
+      "stage": "Stage:",
+      "address": "Enter address"
+    },
+    "units": {
+      "m3PerDay": "m³/day",
+      "mWaterCol": "m water column"
+    },
+    "currency": "KGS",
+    "actions": {
+      "request": "Request",
+      "changeTuData": "History of changes to technical data",
+      "downloadTu": "Download TU",
+      "rejectTu": "Reject TU",
+      "approveTu": "Approve TU",
+      "downloadContract": "Download contract"
+    },
+    "autoLoaded": "Automatically loaded",
+    "contentNotImplemented": "Content for \"{{title}}\" is not implemented yet",
+    "hint": {
+      "uploadToFinishTu": "Upload the relevant document to complete TU creation"
+    },
+    "tabs": {
+      "data": "Data",
+      "architecture": "Architecture",
+      "documents": "Documents",
+      "accounting": "Accounting"
+    },
+    "notSpecified": "Not specified",
+    "loadError": "Loading error",
+    "loadErrorDescription": "Failed to load technical conditions data",
+    "archivedMessage": "TU is archived",
+    "messages": {
+      "approved": "TU approved",
+      "approveFailed": "Failed to approve TU",
+      "tuRejected": "TU rejected",
+      "tuRejectFailed": "Failed to reject TU",
+      "rejected": "Refusal created",
+      "rejectFailed": "Failed to create refusal"
+    },
+    "buttons": {
+      "goToApplication": "Go to application"
+    }
+  },
+  "exportData": {
+    "formSubmitted": "Form submitted:",
+    "title": "Select parameters and export the required data",
+    "fields": {
+      "dataType": "Data types",
+      "statuses": "Statuses",
+      "responsible": "Responsible",
+      "dateFrom": "Date from",
+      "dateTo": "Date to",
+      "selectFields": "Select fields to export"
+    },
+    "validation": {
+      "selectSection": "Select a section"
+    },
+    "placeholders": {
+      "selectSection": "Select a section",
+      "responsible": "Full name or department",
+      "selectFormula": "Select a formula",
+      "selectTypeTU": "Select TU type",
+      "searchCustomer": "Search customer (full name/company)",
+      "searchObject": "Search object (by title)",
+      "numberExample": "123",
+      "text": "Text",
+      "date": "YYYY-MM-DD"
+    },
+    "options": {
+      "orders": "Orders",
+      "clients": "Clients",
+      "requests": "Requests"
+    },
+    "status": {
+      "new": "New",
+      "inProgress": "In progress",
+      "completed": "Completed"
+    },
+    "responsible": {
+      "departmentA": "Department A",
+      "departmentB": "Department B",
+      "ivanov": "Ivanov I.I."
+    },
+    "checkboxes": {
+      "registrationDate": "Registration date",
+      "customer": "Customer",
+      "customerSample": "LLC \"Sairus\"",
+      "rightToAddRequest": "Right to add a request"
+    },
+    "formats": {
+      "excel": "Excel (.xlsx)",
+      "csv": "CSV (.csv)",
+      "pdf": "PDF (for reports)"
+    },
+    "entities": {
+      "technical_conditions": "TU",
+      "entities": "Objects",
+      "protocols": "Protocols",
+      "customers": "Customers",
+      "payments": "Payments",
+      "invoices": "Invoices",
+      "applications": "Applications"
+    },
+    "ui": {
+      "formatLabel": "Format",
+      "formatRequired": "Select format",
+      "formatPlaceholder": "Select format",
+      "entityLabel": "Entity",
+      "entityRequired": "Select entity",
+      "entityPlaceholder": "What to export",
+      "filtersTitle": "Filters",
+      "filtersHint": "Specify one or more filters, or fill in the list of IDs below",
+      "idsLabel": "Record IDs (space- or comma-separated)",
+      "idsTooltip": "You can specify one or more IDs",
+      "idsPlaceholder": "e.g., 1, 2, 3",
+      "includeTitle": "Include related entities",
+      "include": {
+        "customer": "Customer",
+        "entity": "Object",
+        "protocol": "Protocol",
+        "invoices": "Invoices",
+        "payments": "Payments",
+        "pending": "Include payments with pending status"
+      },
+      "fieldsLabel": "Columns (optional)",
+      "fieldsTooltip": "List of data keys. Leave empty for server defaults",
+      "fieldsPlaceholder": "e.g., invoice_number, total_sum",
+      "filenameLabel": "File name (without extension)",
+      "filenamePlaceholder": "unpaid_invoices"
+    },
+    "messages": {
+      "filtersOrIdsRequired": "You must specify either filters, a list of IDs, or both.",
+      "downloaded": "File generated and downloaded",
+      "failed": "Failed to generate export file"
+    },
+    "filters": {
+      "id": "ID",
+      "request_number": "Request number",
+      "status": "Status",
+      "stage": "Stage",
+      "type_ty": "TU type (ID)",
+      "customer_id": "Customer (ID)",
+      "entity_id": "Object (ID)",
+      "formula_id": "Formula (ID)",
+      "request_date_start": "Request date from",
+      "request_date_end": "Request date to",
+      "is_water": "Water connection",
+      "is_kanal": "Sewer connection",
+      "created_start": "Created from",
+      "created_end": "Created to",
+      "technical_condition_id": "TU (ID)",
+      "inn": "INN",
+      "full_name": "Full name / Company",
+      "invoice_id": "Invoice (ID)",
+      "payment_number": "Payment number",
+      "payment_date_start": "Payment date from",
+      "payment_date_end": "Payment date to",
+      "invoice_number": "Invoice number",
+      "is_paid": "Paid",
+      "protocol_id": "Protocol (ID)",
+      "invoice_type": "Invoice type",
+      "invoice_date_start": "Invoice date from",
+      "invoice_date_end": "Invoice date to"
+    },
+    "select": {
+      "status": {
+        "active": "Active",
+        "inactive": "Inactive",
+        "archived": "Archived",
+        "pending": "Pending",
+        "received": "Received",
+        "rejected": "Rejected",
+        "approved": "Approved",
+        "contracted": "Contracted"
+      },
+      "stage": {
+        "draft": "Draft",
+        "review": "In review",
+        "approved": "Approved",
+        "done": "Completed"
+      },
+      "invoice_type": {
+        "main": "Main",
+        "paper_tu": "Paper TU payment"
+      }
+    },
+    "config": {
+      "formatOptions": {
+        "pdf": "PDF",
+        "xlsx": "Excel (XLSX)"
+      },
+      "entityOptions": {
+        "technical_conditions": "TU",
+        "entities": "Objects",
+        "protocols": "Protocols",
+        "customers": "Customers",
+        "payments": "Payments",
+        "invoices": "Invoices",
+        "applications": "Applications"
+      },
+      "statusOptions": {
+        "active": "Active",
+        "inactive": "Inactive",
+        "archived": "Archived"
+      },
+      "stageOptions": {
+        "draft": "Draft",
+        "review": "In review",
+        "approved": "Approved",
+        "done": "Completed"
+      },
+      "customerStatusOptions": {
+        "active": "Active",
+        "rejected": "Rejected"
+      },
+      "paymentStatusOptions": {
+        "pending": "Pending",
+        "received": "Received"
+      },
+      "invoiceTypeOptions": {
+        "main": "Main",
+        "paper_tu": "Paper TU payment"
+      },
+      "applicationStatusOptions": {
+        "pending": "Pending",
+        "rejected": "Rejected",
+        "approved": "Approved",
+        "contracted": "Contracted"
+      }
+    },
+    "presets": {
+      "label": "Templates",
+      "select": "Select template",
+      "save": "Save template",
+      "saveTitle": "Save filter template",
+      "saved": "Template saved",
+      "applied": "Template applied",
+      "entityRequired": "Please select an entity first",
+      "name": "Name",
+      "nameReq": "Enter a name",
+      "description": "Description"
+    },
+    "exportHistory": "Export history"
+  },
+  "notFound": {
+    "subtitle": "This page does not exist",
+    "backHome": "Go to Home"
+  },
+  "exportDataHistory": {
+    "byType": "By type",
+    "byStatus": "By status",
+    "noPermission": "Insufficient permissions to view reports",
+    "reexport": "Re-export record No. {{id}}",
+    "deletedItem": "Record No. {{id}} deleted",
+    "columns": {
+      "date": "Date",
+      "employee": "Employee",
+      "dataType": "Data type",
+      "format": "Format",
+      "actions": "Actions"
+    },
+    "dataTypes": {
+      "tu": "TU",
+      "requests": "Applications",
+      "invoice": "Invoice"
+    }
+  },
+  "technicalConditions": {
+    "filter": {
+      "hasInvoice": "Invoice",
+      "overdue": "Overdue",
+      "dueInDays": "Days until payment due",
+      "tuWithLoads": "TUs with load increases"
+    },
+    "presets": {
+      "select": "Select template",
+      "save": "Save template",
+      "saveTitle": "Save filter template",
+      "name": "Name",
+      "nameReq": "Enter a name",
+      "description": "Description",
+      "saved": "Template saved",
+      "deleted": "Template deleted",
+      "deleteConfirm": "Delete template?"
+    }
+  },
+  "customers": {
+    "columns": {
+      "number": "No.",
+      "customer": "Customer",
+      "categories": "Categories",
+      "passportData": "Passport data",
+      "registrationDate": "Registration date",
+      "address": "Address",
+      "contacts": "Contacts",
+      "status": "Status",
+      "action": "Action"
+    },
+    "category": {
+      "legalShort": "Legal entity",
+      "physicalShort": "Individual",
+      "legalFull": "Legal entity",
+      "physicalFull": "Individual"
+    },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "messages": {
+      "created": "Customer created successfully",
+      "createError": "Error creating customer",
+      "updated": "Customer updated successfully",
+      "updateError": "Error updating customer"
+    },
+    "details": {
+      "tabs": {
+        "data": "Data",
+        "objects": "Objects",
+        "applications": "Applications",
+        "documents": "Documents",
+        "payments": "Payments"
+      },
+      "loadError": "Error loading customer data",
+      "notCreated": "Not created",
+      "details": "Details",
+      "showOnMap": "Show on map",
+      "parameters": "Parameters",
+      "columns": {
+        "index": "No.",
+        "object": "Object",
+        "objectName": "Object name",
+        "address": "Address",
+        "contact": "Contact",
+        "parameters": "Parameters",
+        "status": "Status",
+        "tu": "TU",
+        "tuStatus": "TU status",
+        "objectStatus": "Object status",
+        "createdAt": "Created at",
+        "actions": "Actions"
+      },
+      "empty": {
+        "applications": "The customer has no applications",
+        "objects": "The customer has no objects"
+      },
+      "paymentsSummary": {
+        "totalAmount": "Total payments amount",
+        "totalCount": "Total payments"
+      },
+      "contract": {
+        "contractDate": "Contract date",
+        "tuStatus": "Applications and TU status",
+        "cost": "Contract cost"
+      }
+    }
+  },
+  "customerForm": {
+    "labels": {
+      "type": "Type selection",
+      "individual": "Individual",
+      "legal": "Legal entity",
+      "addressReg": "Registration address",
+      "status": "Status",
+      "companyName": "Company name",
+      "ogrn": "OGRN",
+      "passportData": "Passport data",
+      "contactData": "Contact data",
+      "fio": "Full name"
+    },
+    "placeholders": {
+      "address": "Enter address",
+      "selectStatus": "Select status",
+      "companyName": "Company name",
+      "ogrn": "789010",
+      "passportData": "AB123456",
+      "contactData": "0999700700",
+      "fullName": "Full name",
+      "inn": "123456789010"
+    },
+    "validation": {
+      "pleaseSelectType": "Please select a type!",
+      "pleaseEnterAddress": "Please enter an address!",
+      "pleaseSelectStatus": "Please select a status!"
+    }
+  },
+  "formulas": {
+    "add": "Add formula",
+    "searchPlaceholder": "Search by name...",
+    "foundCount": "Formulas found: {{count}}",
+    "loading": "Loading formulas...",
+    "nothingFound": "No results found for your query",
+    "notFound": "No formulas found",
+    "changeSearch": "Try adjusting your search parameters",
+    "startCreate": "Start by creating your first formula",
+    "coefficient": "Coefficient",
+    "deleteTitle": "Delete formula",
+    "deleteConfirm": "Are you sure you want to delete the formula \"{{title}}\"?",
+    "form": {
+      "modals": {
+        "addTitle": "Add formula",
+        "editTitle": "Edit formula"
+      },
+      "labels": {
+        "title": "Title *",
+        "coefficient": "Coefficient *"
+      },
+      "placeholders": {
+        "fill": "Fill in"
+      },
+      "validation": {
+        "titleRequired": "Enter the formula title",
+        "titleMin": "Title must be at least 2 characters",
+        "titleMax": "Title must not exceed 100 characters",
+        "coefRequired": "Enter the coefficient",
+        "coefNonNegative": "Coefficient cannot be negative",
+        "coefTooLarge": "Coefficient is too large"
+      }
+    },
+    "messages": {
+      "created": "Formula created successfully",
+      "updated": "Formula updated successfully",
+      "deleted": "Formula deleted successfully",
+      "createError": "Error creating formula",
+      "updateError": "Error updating formula",
+      "deleteError": "Error deleting formula",
+      "loadError": "Error loading formulas"
+    }
+  },
+  "objects": {
+    "searchPlaceholder": "Find objects",
+    "notFound": "Objects not found",
+    "add": "Add object",
+    "messages": {
+      "created": "Object created successfully",
+      "createError": "Error creating object",
+      "loadError": "Error loading objects",
+      "updated": "Object updated successfully",
+      "updateError": "Error updating object"
+    }
+  },
+  "tuRejectModal": {
+    "title": "Reject TU",
+    "labels": {
+      "reason": "Reason",
+      "comment": "Comment"
+    },
+    "defaultReason": "Missing required documents",
+    "placeholders": {
+      "reason": "Select reason(s)",
+      "comment": "Provide more details about the reason..."
+    },
+    "buttons": {
+      "upload": "Upload file",
+      "back": "Back",
+      "reject": "Reject"
+    }
+  },
+  "applicationDetails": {
+    "tabs": {
+      "data": "Data",
+      "documents": "Documents"
+    },
+    "buttons": {
+      "pdf": "PDF",
+      "edit": "Edit",
+      "createTu": "Create TU",
+      "rejectTu": "Reject TU",
+      "addFile": "Add file"
+    },
+    "loadError": "Error loading application data",
+    "labels": {
+      "objectName": "Object name",
+      "registrationDate": "Registration date",
+      "customer": "Customer",
+      "address": "Address",
+      "waterRequired": "Required water supply",
+      "wastewater": "Wastewater volume",
+      "status": "Status"
+    },
+    "status": {
+      "approved": "Approved",
+      "rejected": "Rejected",
+      "pending": "Pending",
+      "tuConcluded": "TU concluded"
+    },
+    "documentsTitle": "Documents",
+    "table": {
+      "name": "Name",
+      "uploadDate": "Upload date",
+      "actions": "Actions"
+    },
+    "noDocs": "No uploaded documents",
+    "refusal": {
+      "title": "Reasons for refusal",
+      "causes": "Causes",
+      "comment": "Comment",
+      "date": "Date",
+      "files": "Files",
+      "untitledFile": "file",
+      "noData": "No refusal data"
+    },
+    "messages": {
+      "approveSuccess": "Application approved",
+      "approveError": "Error approving application",
+      "rejectSuccess": "Application rejected",
+      "rejectError": "Error rejecting application",
+      "fileDeleted": "File deleted",
+      "fileDeleteError": "Failed to delete file"
+    }
+  },
+  "architecture": {
+    "titles": {
+      "documentsToUpload": "Documents to upload",
+      "additionalDocuments": "Additional documents",
+      "createDocument": "Create document"
+    },
+    "buttons": {
+      "createDocument": "Create document",
+      "create": "Create"
+    },
+    "inputs": {
+      "documentName": "Document name"
+    },
+    "messages": {
+      "created": "Document created successfully",
+      "createError": "Error creating document"
+    }
+  },
+  "architectureDetails": {
+    "titles": {
+      "uploadDocument": "Upload document",
+      "delete": "Delete"
+    },
+    "confirmDelete": "Are you sure you want to delete the document?",
+    "buttons": {
+      "cancel": "Cancel",
+      "delete": "Delete"
+    },
+    "dragHint": "Drag files here to upload"
+  },
+  "refusal": {
+    "confirmTitle": "Are you sure you want to continue?",
+    "confirmContent": "Refusals were found for the customer or object. Continue submitting the application?",
+    "confirmContentCustomer": "Refusals were found for the customer. Continue submitting the application?",
+    "confirmContentEntity": "Refusals were found for the object. Continue submitting the application?",
+    "confirmContentBoth": "Refusals were found for both the customer and the object. Continue submitting the application?",
+    "customerTitle": "Customer refusals",
+    "entityTitle": "Object refusals",
+    "noCauses": "No reasons specified",
+    "tuCustomerTitle": "Related TUs found for the customer",
+    "tuEntityTitle": "Related TUs found for the object",
+    "confirmContentTuCustomer": "Related TUs were found for the customer. Continue submitting the application?",
+    "confirmContentTuEntity": "Related TUs were found for the object. Continue submitting the application?",
+    "confirmContentTuBoth": "Related TUs were found for both the customer and the object. Continue submitting the application?"
+  },
+  "applicationsCreate": {
+    "uploadModal": {
+      "title": "Attach file",
+      "dropHint": "Drag files here to upload",
+      "validation": {
+        "attachFile": "Please attach a file"
+      }
+    },
+    "form": {
+      "labels": {
+        "inn": "INN",
+        "customer": "Customer",
+        "object": "Object",
+        "street": "Street",
+        "house": "House",
+        "waterAmountRequired": "Required amount of water",
+        "pressureRequired": "Required pressure",
+        "waterPurpose": "Purpose of water",
+        "firefightingExpenses": "Water consumption for internal fire extinguishing",
+        "firefightingExpensesOuter": "Water consumption for external fire extinguishing",
+        "coordinates": "Object coordinates",
+        "coordX": "Coordinate X",
+        "coordY": "Coordinate Y"
+      },
+      "placeholders": {
+        "enterInn": "Enter INN",
+        "fullName": "First and last name",
+        "companyName": "Company name",
+        "address": "Address",
+        "houseNumberShort": "No.",
+        "enterValue": "Enter a value",
+        "waterPurpose": "Purpose of water",
+        "xPlaceholder": "123",
+        "yPlaceholder": "321"
+      },
+      "validation": {
+        "required": "Required field",
+        "number": "Must be a number",
+        "innLength": "INN must be 14 characters long"
+      }
+    },
+    "buttons": {
+      "attach": "Attach file",
+      "attachedCount": "Files attached: {{count}}",
+      "submit": "Submit"
+    },
+    "messages": {
+      "created": "Application created successfully",
+      "createError": "Error creating application",
+      "customerOrObjectError": "Error: failed to determine customer or object",
+      "selectCoordinates": "Please select coordinates on the map",
+      "invalidCoordinates": "Invalid coordinates",
+      "invalidCoordinatesToSend": "Error: invalid coordinates for submission",
+      "coordinatesSelected": "Coordinates selected: {{lat}}, {{lng}}"
+    }
+  },
+  "folderDetail": {
+    "tabs": {
+      "uploaded": "Uploaded",
+      "recent": "Recent"
+    },
+    "messages": {
+      "uploadSuccess": "Files uploaded successfully",
+      "uploadError": "Error uploading files"
+    },
+    "placeholder": {
+      "recent": "Here will be \"Recent\""
+    },
+    "columns": {
+      "title": "Title",
+      "uploadedAt": "Upload date",
+      "actions": "Actions"
+    },
+    "aria": {
+      "download": "Download file",
+      "delete": "Delete file"
+    },
+    "prefixes": {
+      "tu": "TU {{id}}",
+      "folder": "Folder {{folder}}",
+      "document": " > Document {{id}}"
+    }
+  },
+  "applications": {
+    "tabs": {
+      "all": "All",
+      "accepted": "Approved",
+      "pending": "Pending",
+      "rejected": "Rejected"
+    },
+    "columns": {
+      "id": "Application No.",
+      "date": "Registration date",
+      "customer": "Customer",
+      "address": "Address",
+      "objectName": "Object name",
+      "waterAmount": "Water supply amount",
+      "wastewaterAmount": "Wastewater amount",
+      "status": "Status",
+      "action": "Action"
+    },
+    "statusTag": {
+      "approved": "Approved",
+      "rejected": "Rejected",
+      "pending": "Pending",
+      "contracted": "Concluded"
+    },
+    "actions": {
+      "reject": "Reject",
+      "approve": "Approve",
+      "create": "Create",
+      "goToTu": "Go to TU",
+      "decline": "Decline"
+    }
+  },
+  "changeHistory": {
+    "status": {
+      "created": "Created",
+      "deleted": "Deleted",
+      "updated": "Updated"
+    },
+    "columns": {
+      "id": "ID",
+      "user": "Employee",
+      "date": "Date",
+      "type": "Type",
+      "field": "Field",
+      "oldValue": "Old value",
+      "newValue": "New value"
+    }
+  },
+  "protocolDetail": {
+    "tabs": {
+      "protocol": "Protocol",
+      "payments": "Payments"
+    },
+    "buttons": {
+      "downloadProtocol": "Download protocol",
+      "closeInvoice": "Close invoice",
+      "generateInvoice": "Generate invoice",
+      "downloadInvoice": "Download invoice"
+    },
+    "paid": "Paid:",
+    "invoice": {
+      "title": "Invoice",
+      "uploadReceipt": "Upload payment receipt",
+      "number": "Number"
+    },
+    "payment": {
+      "columns": {
+        "paymentNum": "Payment No.",
+        "date": "Payment date",
+        "amount": "Amount",
+        "source": "Source",
+        "status": "Status"
+      },
+      "status": {
+        "received": "Received",
+        "pending": "Pending",
+        "failed": "Rejected"
+      }
+    }
+  },
+  "addTuForms": {
+    "titles": {
+      "main": "Main information",
+      "techParams": "Technical parameters",
+      "connection": "Connection",
+      "finance": "Finance"
+    },
+    "form": {
+      "labels": {
+        "requestSource": "Request source",
+        "requestNumber": "Request number",
+        "requestDate": "Request date",
+        "customer": "Customer",
+        "objectName": "Object name",
+        "address": "Object location",
+        "techConditionType": "Technical condition type",
+        "eni": "ENI",
+        "sewageAmount": "Wastewater amount",
+        "waterRequired": "Required water amount",
+        "pressureRequired": "Required pressure",
+        "fireFighting": "Firefighting (internal/external)",
+        "stage": "Stage",
+        "formula": "Formulas",
+        "isWater": "Water connection",
+        "isKanal": "Sewer connection",
+        "connectionTarget": "What the object connects to",
+        "streetPass": "Street pass",
+        "collector": "Collector",
+        "waterPipe": "Water supply",
+        "sewer": "Sewer",
+        "fireInput1": "Fire input 1",
+        "fireInput2": "Fire input 2",
+        "notes": "Notes and comments",
+        "paymentPaper": "TU fee (paperwork)",
+        "paymentConnection": "Connection fee",
+        "status": "Payment status",
+        "paymentAmount": "Payment amount",
+        "paymentDeadline": "TU payment deadline",
+        "paymentInvoiceNumber": "Invoice No.",
+        "fireFightingOuter": "External firefighting",
+        "fireFightingInner": "Internal firefighting",
+        "collectorDiameter": "Collector D",
+        "provideWater": "Provide water supply",
+        "provideSewer": "Provide sewer",
+        "freePressureInput1": "Free pressure input 1",
+        "waterPipeDiameter1": "Water pipe D 1",
+        "freePressureInput2": "Free pressure input 2",
+        "waterPipeDiameter2": "Water pipe D 2"
+      },
+      "placeholders": {
+        "requestSource": "Object name",
+        "requestNumber": "12345",
+        "requestDate": "YYYY-MM-DD",
+        "customer": "Full name or organization",
+        "objectName": "Residential house",
+        "address": "Object address",
+        "techConditionType": "TU type",
+        "eni": "1234",
+        "sewageAmount": "For example: 2",
+        "waterRequired": "123",
+        "pressureRequired": "10",
+        "fireFighting": "Residential house",
+        "stage": "Select stage",
+        "formula": "Formulas",
+        "connectionTarget": "Object name",
+        "streetPass": "Passing along the street",
+        "collector": "01:00|12:34567",
+        "waterPipe": "Passing along the street",
+        "sewer": "01:00|12:34567",
+        "fireInput1": "input 1",
+        "fireInput2": "input 2",
+        "notes": "Comment",
+        "status": "Select status",
+        "paymentAmount": "1000",
+        "paymentPaper": "Enter amount",
+        "paymentConnection": "Enter amount",
+        "paymentDeadline": "YYYY-MM-DD",
+        "invoiceNumber": "1234567890",
+        "diameter": "Diameter",
+        "selectOption": "Select an option",
+        "provideWater": "Provide water supply",
+        "provideSewer": "Provide sewer",
+        "freePressureInput1": "Free pressure input 1",
+        "waterPipeDiameter1": "Water pipe D 1",
+        "freePressureInput2": "Free pressure input 2",
+        "waterPipeDiameter2": "Water pipe D 2"
+      },
+      "validation": {
+        "specifySource": "Specify source",
+        "specifyRequestNumber": "Specify request number",
+        "specifyRequestDate": "Specify request date",
+        "specifyCustomer": "Specify customer",
+        "specifyObjectName": "Specify object name",
+        "specifyAddress": "Specify address",
+        "selectType": "Select type",
+        "required": "Required field",
+        "paymentDeadlineMin": "Not earlier than 3 months from today"
+      },
+      "options": {
+        "stages": {
+          "draft": "Draft",
+          "review": "In review",
+          "approved": "Approved",
+          "done": "Completed"
+        },
+        "status": {
+          "active": "Active",
+          "inactive": "Inactive",
+          "archived": "Archived"
+        },
+        "connectionType": {
+          "existing": "existing",
+          "built": "built"
+        }
+      },
+      "buttons": {
+        "change": "Edit",
+        "submit": "Done"
+      }
+    },
+    "messages": {
+      "loadTuError": "Failed to get TU data.",
+      "createTuSuccess": "Technical condition created successfully!",
+      "createTuError": "An error occurred while creating TU."
+    }
+  },
+  "objectForm": {
+    "labels": {
+      "title": "Object name",
+      "addressStreet": "Address",
+      "addressNumber": "House number",
+      "cadastralNumber": "Cadastral number",
+      "type": "Object type",
+      "usageType": "Usage type",
+      "status": "Status"
+    },
+    "placeholders": {
+      "title": "Object name",
+      "addressStreet": "Address",
+      "addressNumber": "House number",
+      "cadastralNumber": "01:001:1234567",
+      "type": "Residential building",
+      "usageType": "Residential building",
+      "status": "Select status"
+    },
+    "validation": {
+      "titleRequired": "Enter object name",
+      "addressRequired": "Enter address",
+      "cadastralRequired": "Enter cadastral number",
+      "statusRequired": "Select status"
+    },
+    "buttons": {
+      "cancel": "Back",
+      "add": "Add"
+    }
+  },
+  "objectCard": {
+    "more": "Details",
+    "createdAt": "Created at",
+    "address": "Address",
+    "cadastral": "Cadastral",
+    "status": "Status"
+  },
+  "yandexMap": {
+    "labels": {
+      "request": "Application",
+      "address": "Address",
+      "status": "Status",
+      "stage": "Stage"
+    }
+  },
+  "mapPointSelector": {
+    "title": "Select a point on the map",
+    "hint": {
+      "dragToMove": "Drag to change position"
+    },
+    "errors": {
+      "initMap": "Map initialization error",
+      "loadMap": "Failed to load map",
+      "loadMapTitle": "Map load error"
+    },
+    "messages": {
+      "timeout": "Map load timeout",
+      "selectPointFirst": "Select a point on the map first",
+      "saved": "Coordinates saved",
+      "saveError": "Error saving",
+      "cleared": "Selection cleared"
+    },
+    "loading": {
+      "preparing": "Preparing...",
+      "loadingMap": "Loading map...",
+      "scriptLoaded": "Script loaded...",
+      "initializingMap": "Initializing map...",
+      "loadError": "Load error",
+      "loading": "Loading..."
+    },
+    "actions": {
+      "reloadPage": "Reload page",
+      "clear": "Clear",
+      "tryAgain": "Try again"
+    },
+    "card": {
+      "clickToSelect": "Click on the map to select coordinates",
+      "selectedCoordinates": "Selected coordinates"
+    },
+    "labels": {
+      "address": "Address"
+    }
+  },
+  "paymentsModal": {
+    "title": "Add payment",
+    "labels": {
+      "paymentNumber": "Payment number",
+      "paymentDate": "Payment date",
+      "amount": "Payment amount",
+      "source": "Payment source",
+      "status": "Payment status",
+      "optionalReceiptFile": "Receipt file (optional)"
+    },
+    "placeholders": {
+      "paymentNumber": "Enter payment number",
+      "date": "Pick a date",
+      "amount": "Enter amount",
+      "source": "e.g., 1C",
+      "status": "Select status"
+    },
+    "buttons": {
+      "uploadReceipt": "Upload receipt",
+      "replaceFile": "Replace file",
+      "cancel": "Cancel",
+      "submit": "Add payment"
+    },
+    "messages": {
+      "success": "Payment added successfully",
+      "error": "Error adding payment",
+      "fileTypeError": "Only images, PDF or documents are allowed",
+      "fileSizeError": "File must be smaller than 10MB",
+      "fileSelectedPrefix": "Selected file:"
+    },
+    "validation": {
+      "required": "Field is required",
+      "amountPositive": "Amount must be greater than 0"
+    }
+  },
+  "protocolDoc": {
+    "companyName": "MP \"Bishkekteploset\"",
+    "takeaway": "Takeaway",
+    "vikCostLabel": "Water/sewer connection cost KGS (excl. VAT)",
+    "tuWater": "TU water supply",
+    "tuSewer": "TU sewer",
+    "totalWithoutVat": "Total (excl. VAT)",
+    "extraText": "Additional protocol text or content..."
+  },
+  "protocolEdit": {
+    "title": "Edit protocol",
+    "sections": {
+      "main": "Main data",
+      "cost": "Cost",
+      "taxes": "Taxes",
+      "total": "Total amount"
+    },
+    "fields": {
+      "load": "Load",
+      "coefficient": "Coefficient",
+      "waterPrice": "Water supply cost",
+      "kanalPrice": "Sewer cost",
+      "totalWater": "Total water supply amount",
+      "totalKanal": "Total sewer amount",
+      "ndsMain": "VAT (main)",
+      "ndsPaper": "VAT (paperwork)",
+      "nspMain": "NSP (main)",
+      "nspPaper": "NSP (paperwork)"
+    },
+    "placeholders": {
+      "enterLoad": "Enter load",
+      "enterCoeff": "Enter coefficient",
+      "enterCost": "Enter cost",
+      "enterTotal": "Enter total amount"
+    }
+  },
+  "notification": {
+    "active": "Old",
+    "new": "New",
+    "assignResponsible": "Assign responsible",
+    "time": {
+      "weekAgo": "a week ago"
+    },
+    "markAllAsRead": "Mark all as read",
+    "seeAll": "See all",
+    "date": {
+      "today": "Today",
+      "yesterday": "Yesterday",
+      "lastMonth": "Last month",
+      "earlier": "Earlier"
+    },
+    "open": "Open",
+    "read": "Read"
+  },
+  "paymentsTab": {
+    "buttons": {
+      "add": "Add",
+      "pdf": "PDF",
+      "receipt": "Receipt",
+      "closeInvoice": "Close invoice"
+    },
+    "table": {
+      "empty": "No payments",
+      "actions": "Actions"
+    },
+    "of": "of",
+    "headingByInvoices": "Payments by invoices",
+    "messages": {
+      "loadErrorTitle": "Load error",
+      "loadErrorDesc": "Failed to load payments data",
+      "invoiceFullyPaid": "Invoice fully paid"
+    }
+  },
+  "accounting": {
+    "errors": {
+      "loadTitle": "Load error",
+      "loadDesc": "Failed to load accounting data",
+      "protocolIdNotFound": "Protocol ID not found",
+      "endpointNotFound": "Endpoint for invoice generation not found",
+      "badRequest": "Invalid data for invoice generation",
+      "serverError": "Server error during invoice generation",
+      "downloadProtocolError": "Error downloading protocol",
+      "invoicesLoadTitle": "Error loading invoices",
+      "invoicesLoadDesc": "Invoices may not have been created yet or the API URL is incorrect",
+      "invoicesWarnTitle": "Problem loading invoices",
+      "invoicesWarnDesc": "Check the correctness of the API endpoint",
+      "protocolUpdateError": "Error updating protocol"
+    },
+    "labels": {
+      "paid": "Paid",
+      "pending": "Pending payment",
+      "invoicesNotFound": "Invoices not found",
+      "waterSupply": "Water supply",
+      "sewer": "Sewer",
+      "type": "Type",
+      "status": "Status",
+      "total": "Total",
+      "invoiceNumber": "Invoice number"
+    },
+    "invoiceTypeLabels": {
+      "main": "Main invoice",
+      "paper_tu": "Paper TU"
+    },
+    "protocol": {
+      "nsp": "NSP",
+      "nds": "VAT",
+      "paperWorkWater": "Paperwork (water supply)",
+      "paperWorkSewer": "Paperwork (sewer)",
+      "waterConnectNoTaxes": "Cost of water connection (excl. VAT and NSP)",
+      "sewerConnectNoTaxes": "Cost of sewer connection (excl. VAT and NSP)",
+      "nspWaterPaper": "NSP water supply",
+      "nspSewerPaper": "NSP sewer",
+      "nspTotalPaper": "NSP total",
+      "ndsWaterPaper": "VAT water supply",
+      "ndsSewerPaper": "VAT sewer",
+      "ndsTotalPaper": "VAT total"
+    },
+    "sections": {
+      "mainCalculations": "Main calculations",
+      "issueTu": "Issuance of technical conditions"
+    },
+    "messages": {
+      "generateInvoiceSuccess": "Invoice generated successfully",
+      "invoiceFileUnavailable": "Invoice file is not available for download",
+      "protocolDownloaded": "Protocol downloaded successfully",
+      "needCreateInvoiceFirst": "To view payments, you must first create an invoice",
+      "paidTag": "(Paid)",
+      "protocolUpdated": "Protocol updated successfully",
+      "updatingInvoices": "Updating invoices with new data...",
+      "protocolRegeneratedInvoices": "Protocol updated and invoices regenerated with new data",
+      "invoicesUpdateWarning": "Protocol updated, but an error occurred when updating invoices",
+      "generateInvoiceError": "Error generating invoice"
+    }
+  },
+  "tyImport": {
+    "title": "Import Technical Conditions from Excel",
+    "steps": {
+      "selectFile": "Select file",
+      "selectFileDesc": "Upload Excel file",
+      "processing": "Processing",
+      "processingDesc": "Data import",
+      "result": "Result",
+      "resultDesc": "View results"
+    },
+    "upload": {
+      "cardTitle": "File upload",
+      "dragTextStrong": "Click or drag file to this area",
+      "dragHint": "Only .xlsx and .xls files (up to 10MB) are supported",
+      "alertTitle": "Important!",
+      "alertDescription": "Make sure your Excel file contains all required columns and is properly formatted"
+    },
+    "requirements": {
+      "cardTitle": "File requirements",
+      "list": {
+        "item1": "The file must be in .xlsx or .xls format",
+        "item2": "The first row must contain column headers",
+        "item3": "Maximum file size: 10MB",
+        "item4": "Empty rows will be skipped",
+        "item5": "Status of all TUs will be set to \"Archived\"",
+        "item6": "Stage will be set to \"Completed\""
+      }
+    },
+    "processingFile": {
+      "cardTitle": "File processing",
+      "processingFile": "Processing file: {{name}}",
+      "size": "({{size}})",
+      "importing": "Importing data...",
+      "preparing": "Preparing..."
+    },
+    "results": {
+      "cardTitle": "Import results",
+      "createdTu": "TUs created",
+      "createdIds": "Record IDs",
+      "errors": "Errors",
+      "successTag": "Import successful",
+      "errorTag": "Import with errors",
+      "createdTuPrefix": "TUs created",
+      "archivedTag": "All TUs added to archive",
+      "createdTuCardTitle": "Created technical conditions ({{count}})",
+      "createdIdsPrefix": "IDs of created TUs:",
+      "tuLabel": "TU #{{id}}",
+      "showingFirst": "Showing first records. Total created: {{count}} TUs"
+    },
+    "errors": {
+      "cardTitle": "Import errors ({{count}})",
+      "downloadReport": "Download report",
+      "alertTitle": "Errors found",
+      "alertDesc": "Rows with errors were skipped. Fix them in the source file and try importing again.",
+      "table": {
+        "index": "No.",
+        "description": "Error description"
+      }
+    },
+    "actions": {
+      "importAnother": "Import another file",
+      "goToArchive": "Go to TU archive"
+    },
+    "excelFormat": {
+      "cardTitle": "Excel file format",
+      "intro": "Your Excel file must contain the following columns:",
+      "columnsTable": {
+        "title": "Column title",
+        "description": "Description",
+        "example": "Example",
+        "requiredTag": "required"
+      }
+    },
+    "messages": {
+      "importSuccess": "{{message}} TUs created: {{count}}",
+      "importWarning": "{{message}}. Errors found.",
+      "importError": "An error occurred while importing the file",
+      "reportDownloaded": "Error report downloaded"
+    },
+    "excel": {
+      "columns": {
+        "tu_number": {
+          "title": "TU No.",
+          "description": "Technical condition number",
+          "example": "TU-001-2024"
+        },
+        "registration_date": {
+          "title": "Reg. date",
+          "description": "Registration date",
+          "example": "15.01.2024"
+        },
+        "customer": {
+          "title": "Customer",
+          "description": "Customer name",
+          "example": "LLC \"Stroy Company\""
+        },
+        "address": {
+          "title": "Address",
+          "description": "Object address",
+          "example": "Bishkek, Manas St., 45"
+        },
+        "object_name": {
+          "title": "Object name",
+          "description": "Object description",
+          "example": "Residential building"
+        },
+        "water_quantity": {
+          "title": "Water quantity",
+          "description": "Water volume",
+          "example": "15.5"
+        },
+        "sewage_quantity": {
+          "title": "Sewage quantity",
+          "description": "Sewage volume",
+          "example": "12.0"
+        },
+        "contract_info": {
+          "title": "Contract No. and date for TU and permit payment",
+          "description": "Contract number and date",
+          "example": "Contract No. 123 dated 10.01.2024"
+        },
+        "invoice_number": {
+          "title": "Invoice No. for payment",
+          "description": "Invoice number",
+          "example": "INV-456"
+        },
+        "payment_amount": {
+          "title": "Payment amount for TU and permit",
+          "description": "Amount to pay",
+          "example": "25000"
+        },
+        "payment_date": {
+          "title": "Payment date",
+          "description": "Payment date",
+          "example": "20.01.2024"
+        }
+      }
+    }
+  }
+}

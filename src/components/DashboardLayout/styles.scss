@@ -1,0 +1,19 @@
+.dashboard {
+  &__logo {
+    overflow: hidden;
+    &-text {
+      color: #ffffff;
+      transition:
+        opacity 0.3s ease,
+        transform 0.3s ease;
+      opacity: 1;
+      transform: translateX(0);
+      white-space: nowrap;
+      &.hidden {
+        opacity: 0;
+        transform: translateX(-20px);
+        pointer-events: none;
+      }
+    }
+  }
+}

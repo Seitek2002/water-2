@@ -1,0 +1,75 @@
+.tu-filter-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 24px;
+
+  .ant-select-selection-placeholder {
+    color: #667085;
+  }
+}
+
+/* Pretty panel for expanded filters */
+.tu-filters-panel {
+  width: 100%;
+  background: #fff;
+  border: 1px solid #f0f0f0;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  margin-top: 8px;
+}
+
+/* Panel header with title + reset */
+.tu-filters-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #101828;
+}
+
+/* Make the inline top form take the available space */
+.tu-filter-bar .ant-form {
+  flex: 1 1 auto;
+}
+
+/* Tighter spacing inside the panel */
+.tu-filters-panel .ant-form-item {
+  margin-bottom: 8px;
+}
+
+/* Filters button styles */
+.filters-btn {
+  transition: all 0.2s ease;
+}
+.filters-btn--active,
+.filters-btn:hover {
+  border-color: #1677ff !important;
+  color: #1677ff !important;
+}
+
+/* Header visual tweak */
+.tu-filters-header {
+  border-bottom: 1px solid #f0f0f0;
+  padding-bottom: 6px;
+  margin-bottom: 12px;
+}
+
+/* Panel appear animation */
+.tu-filters-panel {
+  animation: panelFade 120ms ease-out;
+}
+@keyframes panelFade {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

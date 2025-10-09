@@ -1,0 +1,14 @@
+.technical-conditions-page {
+  .ant-table-wrapper .ant-table.ant-table-bordered > .ant-table-container {
+    border-top: 0;
+    border-left: 0;
+  }
+  .ant-table-thead .ant-table-cell {
+    text-align: center;
+    background-color: white;
+  }
+
+  .ant-table-cell {
+    text-align: center;
+  }
+}

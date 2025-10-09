@@ -1,0 +1,1 @@
+export { GeoportalFilters } from './GeoportalFilters';

@@ -1,0 +1,10 @@
+.technical-conditions-content {
+  flex: 1 0 auto; // 🔑 Контент растягивается
+}
+
+.pagination-container {
+  flex-shrink: 0;
+  padding: 16px 0;
+  display: flex;
+  justify-content: center;
+}

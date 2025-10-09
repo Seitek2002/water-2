@@ -1,0 +1,1603 @@
+{
+  "login": {
+    "title": "Бишкексууканал",
+    "welcome": "Кош келиңиз",
+    "email": "Электрондук почтаңызды киргизиңиз",
+    "emailPlaceholder": "Электрондук почта кеминде 5 белгиден турушу керек",
+    "description": "ID жана сырсөздү киргизиңиз",
+    "password": "Сырсөз",
+    "passwordInput": "Сырсөздү киргизиңиз",
+    "passwordPlaceholder": "Сырсөз кеминде 5 белгиден турушу керек",
+    "forgotPassword": "Сырсөздү унуттуңузбу?",
+    "authorizationError": "Авторизация учурунда ката кетти:",
+    "login": "Кирүү",
+    "loading": "Кирип жатабыз...",
+    "errors": {
+      "invalidCredentials": "Туура эмес email же сырсөз",
+      "forbidden": "Кирүүгө тыюу салынган",
+      "server": "Сервер катасы. Кийинчерээк кайра аракет кылыңыз.",
+      "network": "Тармак катасы. Интернет байланышын текшериңиз.",
+      "parse": "Серверден күтүлбөгөн жооп.",
+      "unknown": "Белгисиз ката"
+    }
+  },
+  "dashboard": {
+    "pages": {
+      "geoportal": "Геопортал",
+      "ty": "ТУ",
+      "objects": "Объекттер",
+      "applications": "Арыздар",
+      "customers": "Кардарлар",
+      "bills": "Төлөм үчүн эсептер",
+      "architecture": "Архитектура",
+      "export": "Экспорт",
+      "formulas": "Формулалар",
+      "archive": "Архив",
+      "protocols": "Протоколдор"
+    },
+    "panel": "Башкаруу панели"
+  },
+  "routers": {
+    "historyOfLoads": "Жүктөрдү жогорулатуу тарыхы",
+    "editTy": "ТУ өзгөртүү",
+    "addTu": "Техникалык шарттарды кошуу",
+    "exportData": "Маалыматтарды экспорттоо",
+    "historyExportData": "Маалыматтарды экспорттоо тарыхы",
+    "customerDetails": "Кардарлардын маалыматы",
+    "editRequister": "Кардарды түзөтүү",
+    "addCustomer": "Кардар кошуу",
+    "document": "Документ №",
+    "protocol": "Протокол",
+    "ApplicationDetails": "Арыз №",
+    "editApplication": "Арызды түзөтүү",
+    "applicationCreate": "Арызды түзүү",
+    "profile": "Профиль",
+    "technicalSpecificatio": "Техникалык шарттар",
+    "applicationDetails": "Арыз №",
+    "tuNumberPrefix": "ТУ №",
+    "changeHistory": "Өзгөрүүлөр тарыхы",
+    "notifications": "Билдирмелер",
+    "invoices": "Эсептер",
+    "protocols": "Протоколдор"
+  },
+  "profile": {
+    "title": "Жөндөөлөр",
+    "currentLang": "Тилдер",
+    "description": "Колдонулган тил",
+    "selectLanguageHint": "Каалаган көрсөтүү тилин тандаңыз",
+    "ru": "Орусча",
+    "kg": "Кыргызча",
+    "en": "Англисче",
+    "account": "Эсеп",
+    "logout": "Эсептен чыгуу",
+    "confirmTitle": "Чыгууну ырастоо",
+    "confirmLogout": "Эсептен чыгууну каалайсызбы?",
+    "yes": "Ооба",
+    "no": "Жок",
+    "error": {
+      "title": "Профилди жүктөө катасы",
+      "description": "Колдонуучунун маалыматтарын жүктөө мүмкүн болгон жок"
+    },
+    "userInfo": {
+      "title": "Колдонуучу тууралуу маалымат:",
+      "id": "Колдонуучу ID:",
+      "email": "Email:",
+      "phone": "Телефон:",
+      "provider": "Провайдер:"
+    },
+    "user": "Колдонуучу"
+  },
+  "filterBar": {
+    "search": "Издөө",
+    "residential": "Турак жай",
+    "commercial": "Коммерциялык",
+    "approved": "Бекитилди",
+    "rejected": "Четке кагылды",
+    "archived": "Архивде",
+    "newOnesfirst": "Биринчи жаңылар",
+    "newOldFirst": "Эскилер биринчи",
+    "add": "Кошуу",
+    "filters": "Фильтрлер",
+    "searchButton": "Издөө",
+    "byDate": "Күнү боюнча",
+      "alphabetAsc": "А-Я",
+      "alphabetDesc": "Я-А",
+      "paymentDeadlineAsc": "Төлөө мөөнөтү: адегенде эрте",
+      "paymentDeadlineDesc": "Төлөө мөөнөтү: адегенде кеч",
+      "paymentDateAsc": "Төлөө датасы: адегенде эрте",
+      "paymentDateDesc": "Төлөө датасы: адегенде кеч",
+      "filter": {
+      "alphabet": "Алфавит боюнча",
+      "type": "Түрү боюнча",
+      "status": "Статус",
+      "required": "Милдеттүү талаа",
+      "date": "Күнү",
+      "category": "Категория"
+    }
+  },
+  "geoportalFilters": {
+    "searchPlaceholder": "Аталыш, дарек же арыз номери боюнча издөө",
+    "dropdown": {
+      "type": "Түрү боюнча",
+      "status": "Статусу боюнча",
+      "date": "Күнү боюнча"
+    },
+    "type": {
+      "all": "Бардык түрлөрү",
+      "water": "Суу түтүгү",
+      "sewer": "Канализация",
+      "gas": "Газ түтүгү",
+      "electric": "Электр тармактары",
+      "other": "Башка"
+    },
+    "status": {
+      "all": "Бардык статус",
+      "active": "Активдүү",
+      "inactive": "Иштебейт"
+    },
+    "date": {
+      "all": "Бардык мезгилдер",
+      "month": "Акыркы ай",
+      "quarter": "Акыркы 3 ай",
+      "year": "Акыркы жыл"
+    },
+    "messages": {
+      "type": "Түрү боюнча фильтр: {{value}}",
+      "status": "Статусу боюнча фильтр: {{value}}",
+      "date": "Күнү боюнча фильтр: {{value}}"
+    }
+  },
+  "common": {
+    "refresh": "Жаңылоо",
+    "downloadPdf": "PDF жүктөп алуу",
+    "delete": "Өчүрүү",
+    "upload": "Жүктөө",
+    "pending": "Күтүүдө",
+    "status": "Статус",
+    "required": "Милдеттүү талаа",
+    "export": "Экспорт",
+    "all": "Баары",
+    "download": "Жүктөп алуу",
+    "uploadMore": "Дагы жүктөө",
+    "inDevelopment": "Иштеп чыгууда",
+    "back": "Артка",
+    "uploadFile": "Файл жүктөө",
+    "supportedFormatsHint": "Сүрөттөр, PDF, DOC/DOCX, XLS/XLSX колдоого алынат",
+    "bytes": "байт",
+    "selectedFiles": "Тандалган файлдар: {{count}}",
+    "errorPrefix": "Ката: ",
+    "remaining": "Калдык",
+    "coordinates": "Координаттар",
+    "area": "Аянт",
+    "amountLabel": "Сумма:",
+    "dateLabel": "Күнү:",
+    "dateStart": "Күнү (башталышы)",
+    "dateEnd": "Күнү (аягы)",
+    "totalLabel": "Жалпы:",
+    "save": "Сактоо",
+    "edit": "Түзөтүү",
+    "cancel": "Жокко чыгаруу",
+    "continue": "Улантуу",
+    "latitude": "Кеңдик",
+    "longitude": "Узундук",
+    "comment": "Комментарий",
+    "optionalComment": "Комментарий (милдеттүү эмес)",
+    "noData": "Маалымат жок",
+    "error": "Ката",
+    "reset": "Тазалоо",
+    "advanced": "Кошумча",
+    "yes": "Ооба",
+    "no": "Жок"
+  },
+
+
+
+
+  "geoportal": {
+    "errorLoad": "Маалыматтарды жүктөөдө ката",
+    "dataRefreshed": "Маалыматтар жаңыртылды",
+    "apiError": "API дан маалыматтарды жүктөө мүмкүн болгон жок. Кийинчерээк кайра аракет кылыңыз.",
+    "tryAgain": "Кайра аракет кылуу",
+    "foundCount": "Табылган объекттер: {{count}} / {{total}}",
+    "resetFilters": "Фильтрлерди тазалоо",
+    "loading": "Картанын маалыматы жүктөлүүдө..."
+  },
+  "objectDetail": {
+    "title": "Объекттин деталдары",
+    "titleUpdated": "Аталышы жаңыртылды",
+    "errorUpdateTitle": "Аталышты жаңыртуу учурунда ката",
+    "confirmDeleteTitle": "Өчүрүүнү ырастаңыз",
+    "confirmDeleteContent": "\"{{title}}\" объектин өчүргүңүз келетпи? Бул аракетти артка кайтаруу мүмкүн эмес.",
+    "delete": "Өчүрүү",
+    "cancel": "Жокко чыгаруу",
+    "deleted": "Объект өчүрүлдү",
+    "errorDelete": "Объектти өчүрүүдө ката",
+    "invalidId": "Туура эмес ID",
+    "invalidIdDescription": "Объекттин идентификатору туура эмес көрсөтүлгөн",
+    "backToList": "Тизмеге кайтуу",
+    "notFound": "Объект табылган жок",
+    "loadError": "Жүктөө катасы",
+    "notFoundDescription": "Көрсөтүлгөн ID менен объект жок же өчүрүлгөн",
+    "loadErrorDescription": "Объект тууралуу маалыматты жүктөө мүмкүн болгон жок. Интернетти текшериңиз.",
+    "retry": "Кайра аракет кылуу",
+    "noData": "Маалымат жок",
+    "noDataDescription": "Объект боюнча маалымат жок",
+    "refresh": "Жаңылоо"
+  },
+  "objectEdit": {
+    "buttons": {
+      "backToObjects": "Объекттерге кайтуу",
+      "cancel": "Жокко чыгаруу",
+      "save": "Сактоо",
+      "edit": "Түзөтүү"
+    },
+    "labels": {
+      "contractDate": "Келишим датасы",
+      "type": "Түрү",
+      "status": "Статус",
+      "address": "Дарек",
+      "cadastralNumber": "Кадастр номери",
+      "usageType": "Колдонуу түрү",
+      "tuStatus": "ТУ статусу",
+      "coordinates": "Координаттар"
+    },
+    "placeholders": {
+      "pickDate": "Датаны тандаңыз",
+      "objectType": "Объекттин түрү",
+      "selectStatus": "Статусту тандаңыз",
+      "street": "Көчө",
+      "house": "Үй",
+      "cadastralNumber": "Кадастр номери",
+      "usageType": "Колдонуу түрү",
+      "tuStatus": "ТУ статусу",
+      "latitude": "Кеңдик",
+      "longitude": "Узундук"
+    },
+    "validation": {
+      "enterTitle": "Объекттин аталышын киргизиңиз",
+      "selectStatus": "Статусту тандаңыз"
+    },
+    "messages": {
+      "updated": "Объект ийгиликтүү жаңыртылды",
+      "updateError": "Объектти жаңыртууда ката кетти"
+    },
+    "statusOptions": {
+      "active": "Активдүү",
+      "inactive": "Иштебейт",
+      "pending": "Күтүүдө",
+      "rejected": "Четке кагылды"
+    }
+  },
+  "historyOfLoads": {
+    "addLoad": "Жүктү кошуу",
+    "columns": {
+      "tu": "№ ТУ",
+      "collaborator": "Кызматкер",
+      "loadAdded": "Кошулган жүк",
+      "regDate": "Каттоо күнү",
+      "status": "Статус"
+    },
+    "hint": {
+      "ty": "ТУ"
+    },
+    "messages": {
+      "addSuccess": "Жүк кошулду",
+      "addError": "Жүктү кошуу мүмкүн болгон жок"
+    }
+  },
+  "tuDetails": {
+    "status": {
+      "active": "Активдүү",
+      "inactive": "Иштебейт",
+      "archived": "Архивде"
+    },
+    "stage": {
+      "draft": "Долбоор",
+      "review": "Каралууда",
+      "approved": "Бекитилди",
+      "done": "Аякталды",
+      "unknown": "Белгисиз"
+    },
+    "act": {
+      "actions": {
+        "upload": "Акты жүктөө",
+        "toReview": "Кароо үчүн",
+        "approve": "Бекитүү",
+        "finish": "Аяктоо",
+        "download": "Акты жүктөп алуу"
+      },
+      "messages": {
+        "mustBeApproved": "Аракет ТУ бекитилгенден кийин гана жеткиликтүү",
+        "statusUpdated": "Акт статусы жаңыртылды",
+        "statusUpdateFailed": "Акт статусун өзгөртүү мүмкүн болгон жок",
+        "fileRequired": "Акт файлын тандаңыз",
+        "uploadSuccess": "Акт жүктөлдү"
+      },
+      "modal": {
+        "title": "Акты жүктөө",
+        "hint": "Статус үчүн файлды жүктөңүз: {{status}}"
+      },
+      "status": {
+        "draft": "Долбоор",
+        "review": "Каралууда",
+        "approved": "Бекитилди",
+        "done": "Аякталды",
+        "none": "Акт жок"
+      },
+      "confirm": {
+        "changeTitle": "Акттын статусун өзгөртүү?",
+        "changeContent": "Акттын статусун өзгөртүүнү чындап каалайсызбы?",
+        "createTitle": "Ырастоо актысын түзүү?",
+        "createContent": "Акт түзүлөт. Улантууну каалайсызбы?"
+      }
+    },
+    "titles": {
+      "objectName": "Объекттин аталышы",
+      "applicationInfo": "Арыз тууралуу маалымат",
+      "additionalCharacteristics": "Кошумча мүнөздөмөлөр",
+      "payment": "Төлөм",
+      "customer": "Кардар",
+      "objectLocation": "Объекттин жайгашкан жери",
+      "waterRequired": "Суу керектөө көлөмү",
+      "pressureRequired": "Талап кылынган басым",
+      "sewageAmount": "Стоктор көлөмү",
+      "geoportalRequest": "Геопорталды түзүү боюнча сурам",
+      "savedGeoportalRequest": "Сакталган геопортал сурамы",
+      "waterSupply": "Суу түтүгү",
+      "sewer": "Канализация",
+      "otherDocuments": "Башка документтер",
+      "confirmationAct": "Ырастоо актысы"
+    },
+    "labels": {
+      "requestNumber": "Арыз номери:",
+      "requestDate": "Арыз датасы:",
+      "requestSource": "Сурактын булагы:",
+      "inn": "ИНН:",
+      "connectionTarget": "Туташуу объекти:",
+      "streetPass": "Көчө боюнча өтүү:",
+      "collector": "Коллектор:",
+      "fireFighting": "Өрт өчүрүү:",
+      "fireInput1": "Өрт киргизүү 1:",
+      "fireInput2": "Өрт киргизүү 2:",
+      "notes": "Эскертүүлөр:",
+      "paymentInvoiceNumber": "Эсеп-фактура номери:",
+      "paymentPaper": "Кагаз иштери үчүн сумма:",
+      "paymentConnection": "Туташуу суммасы:",
+      "paymentAmount": "Жалпы сумма:",
+      "paymentDeadline": "Төлөөнүн акыркы мөөнөтү:",
+      "stage": "Баскыч:",
+      "address":"Дарек:"
+    },
+    "units": {
+      "m3PerDay": "м³/сут",
+      "mWaterCol": "м.вод.ст"
+    },
+    "currency": "сом",
+    "actions": {
+      "request": "Сурам жөнөтүү",
+      "changeTuData": "ТУ маалыматтарынын өзгөрүү тарыхы",
+      "downloadTu": "ТУ жүктөп алуу",
+      "rejectTu": "ТУдан баш тартуу",
+      "approveTu": "ТУдан бекитуу",
+      "downloadContract": "Келишимди жүктөп алуу"
+    },
+    "autoLoaded": "Автоматтык түрдө жүктөлдү",
+    "contentNotImplemented": "\"{{title}}\" үчүн контент али ишке ашырыла элек",
+    "hint": {
+      "uploadToFinishTu": "ТУ түзүүнү аяктоо үчүн тиешелүү документти жүктөңүз"
+    },
+    "tabs": {
+      "data": "Маалымат",
+      "architecture": "Архитектура",
+      "documents": "Документтер",
+      "accounting": "Бухгалтерия"
+    },
+    "notSpecified": "Көрсөтүлгөн эмес",
+    "loadError": "Жүктөө катасы",
+    "loadErrorDescription": "Техникалык шарттар боюнча маалыматты жүктөө мүмкүн болгон жок",
+    "archivedMessage": "ТУ архивде",
+    "messages": {
+      "approved": "ТУ бекитилди",
+      "approveFailed": "ТУну бекитүү мүмкүн болгон жок",
+      "tuRejected": "ТУ четке кагылды",
+      "tuRejectFailed": "ТУну четке кагуу мүмкүн болгон жок",
+      "rejected": "Баш тартуу түзүлдү",
+      "rejectFailed": "Баш тартууну түзүү мүмкүн болгон жок"
+    },
+    "buttons": {
+      "goToApplication": "Арызга өтүү"
+    }
+  },
+  "notFound": {
+    "subtitle": "Мындай барак жок",
+    "backHome": "Башкы бетке"
+  },
+  "exportDataHistory": {
+    "byType": "Түрү боюнча",
+    "byStatus": "Статусу боюнча",
+    "noPermission": "Отчетторду көрүүгө уруксат жетишсиз",
+    "reexport": "Жазууну кайра экспорттоо №{{id}}",
+    "deletedItem": "Жазуу №{{id}} өчүрүлдү",
+    "columns": {
+      "date": "Күнү",
+      "employee": "Кызматкер",
+      "dataType": "Маалымат түрү",
+      "format": "Формат",
+      "actions": "Аракеттер"
+    },
+    "dataTypes": {
+      "tu": "ТУ",
+      "requests": "Арыздар",
+      "invoice": "Төлөм эсеп-фактурасы"
+    }
+  },
+  "technicalConditions": {
+    "filter": {
+      "hasInvoice": "Эсеп",
+      "overdue": "Мөөнөтү өтүп кеткен",
+      "dueInDays": "Төлөө мөөнөтүнө чейин калган күндөр",
+      "tuWithLoads": "Жүктөрдү жогорулатуу бар ТУ"
+    },
+    "presets": {
+      "select": "Үлгүнү тандаңыз",
+      "save": "Үлгүнү сактоо",
+      "saveTitle": "Фильтр үлгүсүн сактоо",
+      "name": "Аталышы",
+      "nameReq": "Аталышын киргизиңиз",
+      "description": "Сүрөттөмө",
+      "saved": "Үлгү сакталды",
+      "deleted": "Үлгү өчүрүлдү",
+      "deleteConfirm": "Үлгүнү өчүрсүнбү?"
+    }
+  },
+  "exportData": {
+    "formSubmitted": "Форма жөнөтүлдү:",
+    "title": "Параметрлерди тандап, керектүү маалыматты экспорттоңуз",
+    "fields": {
+      "dataType": "Маалымат түрлөрү",
+      "statuses": "Статустар",
+      "responsible": "Жооптуу",
+      "dateFrom": "Башталган күнү",
+      "dateTo": "Аяктоо күнү",
+      "selectFields": "Экспорт үчүн талааларды тандаңыз"
+    },
+    "validation": {
+      "selectSection": "Бөлүмдү тандаңыз"
+    },
+    "placeholders": {
+      "selectSection": "Бөлүмдү тандаңыз",
+      "responsible": "Аты-жөнү же бөлүм",
+      "selectFormula": "Формуланы тандаңыз",
+      "selectTypeTU": "ТУ тибин тандаңыз",
+      "searchCustomer": "Кардарды издөө (аты-жөнү/аты)",
+      "searchObject": "Объектти издөө (аталышы боюнча)",
+      "numberExample": "123",
+      "text": "Текст",
+      "date": "YYYY-MM-DD"
+    },
+    "options": {
+      "orders": "Заказдар",
+      "clients": "Кардарлар",
+      "requests": "Арыздар"
+    },
+    "status": {
+      "new": "Жаңы",
+      "inProgress": "Иштөөдө",
+      "completed": "Аякталды"
+    },
+    "responsible": {
+      "departmentA": "A бөлүмү",
+      "departmentB": "B бөлүмү",
+      "ivanov": "Иванов И.И."
+    },
+    "checkboxes": {
+      "registrationDate": "Каттоо күнү",
+      "customer": "Кардар",
+      "customerSample": "ОсОО \"Сайрус\"",
+      "rightToAddRequest": "Арыз кошуу укугу"
+    },
+    "formats": {
+      "excel": "Excel (.xlsx)",
+      "csv": "CSV (.csv)",
+      "pdf": "PDF (отчеттор үчүн)"
+    },
+    "entities": {
+      "technical_conditions": "ТУ",
+      "entities": "Объекттер",
+      "protocols": "Протоколдор",
+      "customers": "Кардарлар",
+      "payments": "Төлөмдөр",
+      "invoices": "Эсептер",
+      "applications": "Арыздар"
+    },
+    "ui": {
+      "formatLabel": "Формат",
+      "formatRequired": "Форматты тандаңыз",
+      "formatPlaceholder": "Форматты тандаңыз",
+      "entityLabel": "Маалымат түрү",
+      "entityRequired": "Маалымат түрүн тандаңыз",
+      "entityPlaceholder": "Эмне экспорттойбуз",
+      "filtersTitle": "Фильтрлер",
+      "filtersHint": "Бир же бир нече фильтрди көрсөтүңүз же төмөндө ID тизмесин толтуруңуз",
+      "idsLabel": "Жазуулардын ID'лери (боштук же үтүр аркылуу)",
+      "idsTooltip": "Бир же бир нече ID көрсөтө аласыз",
+      "idsPlaceholder": "Мисалы: 1, 2, 3",
+      "includeTitle": "Тектеш объекттерди кошуу",
+      "include": {
+        "customer": "Кардар",
+        "entity": "Объект",
+        "protocol": "Протокол",
+        "invoices": "Эсептер",
+        "payments": "Төлөмдөр",
+        "pending": "Күтүү статусундагы төлөмдөрдү эске алуу"
+      },
+      "fieldsLabel": "Тилкелер (каалоого жараша)",
+      "fieldsTooltip": "Маалымат ачкычтарынын тизмеси. Сервердин демейкисин колдонуу үчүн бош калтырыңыз",
+      "fieldsPlaceholder": "Мисалы: invoice_number, total_sum",
+      "filenameLabel": "Файл аты (кеңейтүүсүз)",
+      "filenamePlaceholder": "unpaid_invoices"
+    },
+    "messages": {
+      "filtersOrIdsRequired": "Фильтрлерди, ID тизмесин же экөөнү тең көрсөтүү керек.",
+      "downloaded": "Файл түзүлүп жүктөлдү",
+      "failed": "Экспорт файлын түзүү мүмкүн болгон жок"
+    },
+    "filters": {
+      "id": "ID",
+      "request_number": "Сурам номери",
+      "status": "Статус",
+      "stage": "Баскыч",
+      "type_ty": "ТУ тиби (ID)",
+      "customer_id": "Кардар (ID)",
+      "entity_id": "Объект (ID)",
+      "formula_id": "Формула (ID)",
+      "request_date_start": "Сурам датасы (башталышы)",
+      "request_date_end": "Сурам датасы (аягы)",
+      "is_water": "Сууга туташуу",
+      "is_kanal": "Канализацияга туташуу",
+      "created_start": "Түзүлгөндөн",
+      "created_end": "Түзүлгөнгө чейин",
+      "technical_condition_id": "ТУ (ID)",
+      "inn": "ИНН",
+      "full_name": "ФИО/Аталышы",
+      "invoice_id": "Эсеп (ID)",
+      "payment_number": "Төлөм номери",
+      "payment_date_start": "Төлөм датасы (башталышы)",
+      "payment_date_end": "Төлөм датасы (аягы)",
+      "invoice_number": "Эсеп номери",
+      "is_paid": "Төлөнгөн",
+      "protocol_id": "Протокол (ID)",
+      "invoice_type": "Эсеп түрү",
+      "invoice_date_start": "Эсеп датасы (башталышы)",
+      "invoice_date_end": "Эсеп датасы (аягы)"
+    },
+    "select": {
+      "status": {
+        "active": "Активдүү",
+        "inactive": "Иштебейт",
+        "archived": "Архивде",
+        "pending": "Күтүүдө",
+        "received": "Түштү",
+        "rejected": "Четке кагылды",
+        "approved": "Бекитилди",
+        "contracted": "Түзүлгөн"
+      },
+      "stage": {
+        "draft": "Долбоор",
+        "review": "Каралууда",
+        "approved": "Бекитилди",
+        "done": "Аякталды"
+      },
+      "invoice_type": {
+        "main": "Негизги",
+        "paper_tu": "Кагаз ТУ үчүн төлөм"
+      }
+    },
+    "config": {
+      "formatOptions": {
+        "pdf": "PDF",
+        "xlsx": "Excel (XLSX)"
+      },
+      "entityOptions": {
+        "technical_conditions": "ТУ",
+        "entities": "Объекттер",
+        "protocols": "Протоколдор",
+        "customers": "Кардарлар",
+        "payments": "Төлөмдөр",
+        "invoices": "Эсептер",
+        "applications": "Арыздар"
+      },
+      "statusOptions": {
+        "active": "Активдүү",
+        "inactive": "Иштебейт",
+        "archived": "Архивде"
+      },
+      "stageOptions": {
+        "draft": "Долбоор",
+        "review": "Каралууда",
+        "approved": "Бекитилди",
+        "done": "Аякталды"
+      },
+      "customerStatusOptions": {
+        "active": "Активдүү",
+        "rejected": "Четке кагылды"
+      },
+      "paymentStatusOptions": {
+        "pending": "Күтүүдө",
+        "received": "Түштү"
+      },
+      "invoiceTypeOptions": {
+        "main": "Негизги",
+        "paper_tu": "Кагаз ТУ үчүн төлөм"
+      },
+      "applicationStatusOptions": {
+        "pending": "Күтүүдө",
+        "rejected": "Четке кагылды",
+        "approved": "Бекитилди",
+        "contracted": "Түзүлгөн"
+      }
+    },
+    "presets": {
+      "label": "Үлгүлөр",
+      "select": "Үлгүнү тандаңыз",
+      "save": "Үлгүнү сактоо",
+      "saveTitle": "Фильтр үлгүсүн сактоо",
+      "saved": "Үлгү сакталды",
+      "applied": "Үлгү колдонулду",
+      "entityRequired": "Алгач маалымат түрүн тандаңыз",
+      "name": "Аталышы",
+      "nameReq": "Аталышын киргизиңиз",
+      "description": "Сүрөттөмө"
+    },
+    "exportHistory": "Экспорт тарыхы"
+  },
+  "tuRejectModal": {
+    "title": "ТУдан баш тартуу",
+    "labels": {
+      "reason": "Себеби",
+      "comment": "Комментарий"
+    },
+    "defaultReason": "Зарыл документтер жетишпейт",
+    "placeholders": {
+      "reason": "Себеп(тер)ин тандаңыз",
+      "comment": "Себеби тууралуу кеңири жазыңыз..."
+    },
+    "buttons": {
+      "upload": "Файл жүктөө",
+      "back": "Артка",
+      "reject": "Баш тартуу"
+    }
+  },
+  "applicationDetails": {
+    "tabs": {
+      "data": "Маалымат",
+      "documents": "Документтер"
+    },
+    "buttons": {
+      "pdf": "PDF",
+      "edit": "Түзөтүү",
+      "createTu": "ТУ түзүү",
+      "rejectTu": "ТУдан баш тартуу",
+      "addFile": "Файл кошуу"
+    },
+    "loadError": "Арыз маалыматын жүктөөдө ката",
+    "labels": {
+      "objectName": "Объекттин аталышы",
+      "registrationDate": "Катталган күнү",
+      "customer": "Кардар",
+      "address": "Дарек",
+      "waterRequired": "Суу керектөө көлөмү",
+      "wastewater": "Стоктор көлөмү",
+      "status": "Статус"
+    },
+    "status": {
+      "approved": "Бекитилди",
+      "rejected": "Четке кагылды",
+      "pending": "Күтүүдө",
+      "tuConcluded": "ТУ түзүлгөн"
+    },
+    "documentsTitle": "Документтер",
+    "table": {
+      "name": "Аталышы",
+      "uploadDate": "Жүктөлгөн күнү",
+      "actions": "Аракеттер"
+    },
+    "noDocs": "Жүктөлгөн документтер жок",
+    "refusal": {
+      "title": "Баш тартуунун себептери",
+      "causes": "Себептер",
+      "comment": "Комментарий",
+      "date": "Күнү",
+      "files": "Файлдар",
+      "untitledFile": "файл",
+      "noData": "Баш тартуу боюнча маалымат жок"
+    },
+    "messages": {
+      "approveSuccess": "Арыз бекитилди",
+      "approveError": "Арызды бекитүүдө ката кетти",
+      "rejectSuccess": "Арыз четке кагылды",
+      "rejectError": "Арызды четке кагууда ката кетти",
+      "fileDeleted": "Файл өчүрүлдү",
+      "fileDeleteError": "Файлды өчүрүү мүмкүн болгон жок"
+    }
+  },
+  "architecture": {
+    "titles": {
+      "documentsToUpload": "Жүктөө үчүн документтер",
+      "additionalDocuments": "Кошумча документтер",
+      "createDocument": "Документ түзүү"
+    },
+    "buttons": {
+      "createDocument": "Документ түзүү",
+      "create": "Түзүү"
+    },
+    "inputs": {
+      "documentName": "Документтин аталышы"
+    },
+    "messages": {
+      "created": "Документ ийгиликтүү түзүлдү",
+      "createError": "Документ түзүүдө ката"
+    }
+  },
+  "architectureDetails": {
+    "titles": {
+      "uploadDocument": "Документ жүктөө",
+      "delete": "Өчүрүү"
+    },
+    "confirmDelete": "Документти өчүрүүнү каалайсызбы?",
+    "buttons": {
+      "cancel": "Жокко чыгаруу",
+      "delete": "Өчүрүү"
+    },
+    "dragHint": "Файлдарды бул жерге сүйрөңүз"
+  },
+  "refusal": {
+    "confirmTitle": "Улантууну каалайсызбы?",
+    "confirmContent": "Кардар же объект боюнча баш тартуулар табылды. Арызды жөнөтүүнү улантууну каалайсызбы?",
+    "confirmContentCustomer": "Кардар боюнча баш тартуулар табылды. Арызды жөнөтүүнү улантууну каалайсызбы?",
+    "confirmContentEntity": "Объект боюнча баш тартуулар табылды. Арызды жөнөтүүнү улантууну каалайсызбы?",
+    "confirmContentBoth": "Кардар жана объект боюнча баш тартуулар табылды. Арызды жөнөтүүнү улантууну каалайсызбы?",
+    "customerTitle": "Кардар боюнча баш тартуулар",
+    "entityTitle": "Объект боюнча баш тартуулар",
+    "noCauses": "Себептер көрсөтүлгөн эмес",
+    "tuCustomerTitle": "Кардар боюнча байланышкан ТУ табылды",
+    "tuEntityTitle": "Объект боюнча байланышкан ТУ табылды",
+    "confirmContentTuCustomer": "Кардар боюнча байланышкан ТУ табылды. Арызды жөнөтүүнү улантууну каалайсызбы?",
+    "confirmContentTuEntity": "Объект боюнча байланышкан ТУ табылды. Арызды жөнөтүүнү улантууну каалайсызбы?",
+    "confirmContentTuBoth": "Кардар жана объект боюнча байланышкан ТУ табылды. Арызды жөнөтүүнү улантууну каалайсызбы?"
+  },
+  "applicationsCreate": {
+    "uploadModal": {
+      "title": "Файл тиркөө",
+      "dropHint": "Файлдарды бул жерге сүйрөңүз",
+      "validation": {
+        "attachFile": "Сураныч, файлды тиркеңиз"
+      }
+    },
+    "form": {
+      "labels": {
+        "inn": "ИНН",
+        "customer": "Кардар",
+        "object": "Объект",
+        "street": "Көчө",
+        "house": "Үй",
+        "waterAmountRequired": "Талап кылынган суу көлөмү",
+        "pressureRequired": "Талап кылынган басым",
+        "waterPurpose": "Суунун максаты",
+        "firefightingExpenses": "Ички өрт өчүрүүгө суу керектөөсү",
+        "firefightingExpensesOuter": "Сырткы өрт өчүрүүгө суу керектөөсү",
+        "coordinates": "Объекттин координаттары",
+        "coordX": "X координатасы",
+        "coordY": "Y координатасы"
+      },
+      "placeholders": {
+        "enterInn": "ИНН киргизиңиз",
+        "fullName": "Аты-жөнү",
+        "companyName": "Компаниянын аталышы",
+        "address": "Дарек",
+        "houseNumberShort": "№",
+        "enterValue": "Маалыматты киргизиңиз",
+        "waterPurpose": "Суунун максаты",
+        "xPlaceholder": "123",
+        "yPlaceholder": "321"
+      },
+      "validation": {
+        "required": "Милдеттүү талаа",
+        "number": "Маалыматты киргизиңиз",
+        "innLength": "ИНН 14 сан болышы керек"
+      }
+    },
+    "buttons": {
+      "attach": "Файл тиркөө",
+      "attachedCount": "Тиркелген файлдар: {{count}}",
+      "submit": "Жөнөтүү"
+    },
+    "messages": {
+      "created": "Арыз ийгиликтүү түзүлдү",
+      "createError": "Арызды түзүүдө ката",
+      "customerOrObjectError": "Ката: кардарды же объектти аныктоого мүмкүн болбоду",
+      "selectCoordinates": "Сураныч, картадан координаттарды тандаңыз",
+      "invalidCoordinates": "Координаттар туура эмес",
+      "invalidCoordinatesToSend": "Ката: жөнөтүү үчүн жараксыз координаттар",
+      "coordinatesSelected": "Координаттар тандалды: {{lat}}, {{lng}}"
+    }
+  },
+  "folderDetail": {
+    "tabs": {
+      "uploaded": "Жүктөлгөндөр",
+      "recent": "Жакындагылар"
+    },
+    "messages": {
+      "uploadSuccess": "Файлдар ийгиликтүү жүктөлдү",
+      "uploadError": "Файлдарды жүктөөдө ката"
+    },
+    "placeholder": {
+      "recent": "Бул жерде \"Жакындагылар\" болот"
+    },
+    "columns": {
+      "title": "Аталышы",
+      "uploadedAt": "Жүктөлгөн күнү",
+      "actions": "Аракеттер"
+    },
+    "aria": {
+      "download": "Файлды жүктөп алуу",
+      "delete": "Файлды өчүрүү"
+    },
+    "prefixes": {
+      "tu": "ТУ {{id}}",
+      "folder": "Папка {{folder}}",
+      "document": " > Документ {{id}}"
+    }
+  },
+  "applications": {
+    "tabs": {
+      "all": "Баары",
+      "accepted": "Бекитилди",
+      "pending": "Күтүүдө",
+      "rejected": "Четке кагылды"
+    },
+    "columns": {
+      "id": "Арыз №",
+      "date": "Катталган күнү",
+      "customer": "Кардар",
+      "address": "Дарек",
+      "objectName": "Объекттин аталышы",
+      "waterAmount": "Суу көлөмү",
+      "wastewaterAmount": "Стоктор көлөмү",
+      "status": "Статус",
+      "action": "Аракет"
+    },
+    "statusTag": {
+      "approved": "Бекитилди",
+      "rejected": "Четке кагылды",
+      "pending": "Күтүүдө",
+      "contracted": "Түзүлгөн"
+    },
+    "actions": {
+      "reject": "Баш тартуу",
+      "approve": "Бекитүү",
+      "create": "Оформдоо",
+      "goToTu": "ТУга өтүү",
+      "decline": "Баш тартуу"
+    }
+  },
+  "protocolDetail": {
+    "tabs": {
+      "protocol": "Протокол",
+      "payments": "Төлөмдөр"
+    },
+    "buttons": {
+      "downloadProtocol": "Протоколду жүктөө",
+      "closeInvoice": "Эсепти жабуу",
+      "generateInvoice": "Төлөм эсебин түзүү",
+      "downloadInvoice": "Эсепти жүктөп алуу"
+    },
+    "paid": "Төлөндү:",
+    "invoice": {
+      "title": "Төлөм эсеби",
+      "uploadReceipt": "Төлөм чегин жүктөө",
+      "number": "Номуру"
+    },
+    "payment": {
+      "columns": {
+        "paymentNum": "Төлөм №",
+        "date": "Төлөө күнү",
+        "amount": "Сумма",
+        "source": "Булак",
+        "status": "Статус"
+      },
+      "status": {
+        "received": "Түштү",
+        "pending": "Күтүүдө",
+        "failed": "Четке кагылды"
+      }
+    }
+  },
+  "changeHistory": {
+    "status": {
+      "created": "Түзүлдү",
+      "deleted": "Өчүрүлдү",
+      "updated": "Өзгөртүлдү"
+    },
+    "columns": {
+      "id": "ID",
+      "user": "Кызматкер",
+      "date": "Күнү",
+      "type": "Тиби",
+      "field": "Талаа",
+      "oldValue": "Эски маани",
+      "newValue": "Жаңы маани"
+    }
+  },
+  "customerForm": {
+    "labels": {
+      "type": "Түрүн тандоо",
+      "individual": "Физикалык жак",
+      "legal": "Юридикалык жак",
+      "addressReg": "Каттоо дареги",
+      "status": "Статус",
+      "companyName": "Компаниянын аталышы",
+      "ogrn": "ОГРН",
+      "passportData": "Паспорт маалыматтар",
+      "contactData": "Байланыш маалыматтары",
+      "fio": "Аты-жөнү"
+    },
+    "placeholders": {
+      "address": "Дарек киргизиңиз",
+      "selectStatus": "Статусту тандаңыз",
+      "companyName": "Компаниянын аталышы",
+      "ogrn": "789010",
+      "passportData": "AB123456",
+      "contactData": "0999700700",
+      "fullName": "Толук аты-жөнү",
+      "inn": "123456789010"
+    },
+    "validation": {
+      "pleaseSelectType": "Сураныч, түрүн тандаңыз!",
+      "pleaseEnterAddress": "Сураныч, даректи киргизиңиз!",
+      "pleaseSelectStatus": "Сураныч, статусту тандаңыз!"
+    }
+  },
+  "formulas": {
+    "add": "Формула кошуу",
+    "searchPlaceholder": "Аталышы боюнча издөө...",
+    "foundCount": "Табылган формулалар: {{count}}",
+    "loading": "Формулалар жүктөлүүдө...",
+    "nothingFound": "Сурамыңыз боюнча эч нерсе табылган жок",
+    "notFound": "Формулалар табылган жок",
+    "changeSearch": "Издөө параметрлерин өзгөртүп көрүңүз",
+    "startCreate": "Биринчи формуланы түзүүдөн баштаңыз",
+    "coefficient": "Коэффициент",
+    "deleteTitle": "Формуланы өчүрүү",
+    "deleteConfirm": "«{{title}}» формуланы өчүргүңүз келеби?",
+    "form": {
+      "modals": {
+        "addTitle": "Формуланы кошуу",
+        "editTitle": "Формуланы түзөтүү"
+      },
+      "labels": {
+        "title": "Аталышы *",
+        "coefficient": "Коэффициент *"
+      },
+      "placeholders": {
+        "fill": "Толтуруңуз"
+      },
+      "validation": {
+        "titleRequired": "Формуланын аталышын киргизиңиз",
+        "titleMin": "Аталыш кеминде 2 белги болушу керек",
+        "titleMax": "Аталыш 100 белгиден ашпоого тийиш",
+        "coefRequired": "Коэффициентти киргизиңиз",
+        "coefNonNegative": "Коэффициент терс болушу мүмкүн эмес",
+        "coefTooLarge": "Коэффициент өтө чоң"
+      }
+    },
+    "messages": {
+      "created": "Формула ийгиликтүү түзүлдү",
+      "updated": "Формула ийгиликтүү жаңыртылды",
+      "deleted": "Формула ийгиликтүү өчүрүлдү",
+      "createError": "Формуланы түзүүдө ката",
+      "updateError": "Формуланы жаңыртууда ката",
+      "deleteError": "Формуланы өчүрүүдө ката",
+      "loadError": "Формулаларды жүктөөдө ката"
+    }
+  },
+  "objects": {
+    "searchPlaceholder": "Объекттерди табуу",
+    "notFound": "Объекттер табылган жок",
+    "add": "Объект кошуу",
+    "messages": {
+      "created": "Объект ийгиликтүү түзүлдү",
+      "createError": "Объектти түзүүдө ката",
+      "loadError": "Объекттерди жүктөөдө ката",
+      "updated": "Объект ийгиликтүү жаңыртылды",
+      "updateError": "Объектти жаңыртууда ката кетти"
+    }
+  },
+  "customers": {
+    "columns": {
+      "number": "№",
+      "customer": "Кардар",
+      "categories": "Категориялар",
+      "passportData": "Паспорттук маалымат",
+      "registrationDate": "Катталган күнү",
+      "address": "Дарек",
+      "contacts": "Байланыш",
+      "status": "Статус",
+      "action": "Аракет"
+    },
+    "category": {
+      "legalShort": "Юр. жак",
+      "physicalShort": "Физ. жак",
+      "legalFull": "Юридикалык жак",
+      "physicalFull": "Физикалык жак"
+    },
+    "messages": {
+      "created": "Кардар ийгиликтүү кошулду",
+      "createError": "Кардарды түзүүдө ката",
+      "updated": "Кардар ийгиликтүү жаңыртылды",
+      "updateError": "Кардарды жаңыртууда ката"
+    },
+    "status": {
+      "active": "Активдүү",
+      "inactive": "Иштебейт"
+    },
+    "details": {
+      "tabs": {
+        "data": "Маалымат",
+        "objects": "Объекттер",
+        "applications": "Арыздар",
+        "documents": "Документтер",
+        "payments": "Төлөмдөр"
+      },
+      "loadError": "Кардар боюнча маалыматты жүктөө мүмкүн болгон жок",
+      "notCreated": "Түзүлгөн эмес",
+      "details": "Толугураак",
+      "showOnMap": "Картада көрсөтүү",
+      "parameters": "Параметрлер",
+      "columns": {
+        "index": "№",
+        "object": "Объект",
+        "objectName": "Объекттин аталышы",
+        "address": "Дарек",
+        "contact": "Байланыш",
+        "parameters": "Параметрлер",
+        "status": "Статус",
+        "tu": "ТУ",
+        "tuStatus": "ТУ статусу",
+        "objectStatus": "Объект статусу",
+        "createdAt": "Түзүлгөн күнү",
+        "actions": "Аракеттер"
+      },
+      "empty": {
+        "applications": "Кардарда арыздар жок",
+        "objects": "Кардарда объекттер жок"
+      },
+      "paymentsSummary": {
+        "totalAmount": "Төлөмдөрдүн жалпы суммасы",
+        "totalCount": "Төлөмдөрдүн саны"
+      },
+      "contract": {
+        "contractDate": "Келишим датасы",
+        "tuStatus": "Арыздар жана ТУ статусу",
+        "cost": "Келишим баасы"
+      }
+    }
+  },
+  "addTuForms": {
+    "titles": {
+      "main": "Негизги маалымат",
+      "techParams": "Техникалык параметрлер",
+      "connection": "Туташуу",
+      "finance": "Финансы"
+    },
+    "form": {
+      "labels": {
+        "requestSource": "Сурам булагы",
+        "requestNumber": "Сурам номери",
+        "requestDate": "Сурам датасы",
+        "customer": "Кардар",
+        "objectName": "Объекттин аталышы",
+        "address": "Объекттин жайгашкан жери",
+        "techConditionType": "Техникалык шарттын тиби",
+        "eni": "ЕНИ",
+        "sewageAmount": "Стоктор көлөмү",
+        "waterRequired": "Суу керектөө көлөмү",
+        "pressureRequired": "Талап кылынган басым",
+        "fireFighting": "Өрт өчүрүү (ички/сырт)",
+        "stage": "Баскыч",
+        "formula": "Формулалар",
+        "isWater": "Сууга туташуу",
+        "isKanal": "Канализацияга туташуу",
+        "connectionTarget": "Кайсы объектке туташат",
+        "streetPass": "Көчө боюнча өтүү",
+        "collector": "Коллектор",
+        "waterPipe": "Суу түтүгү",
+        "sewer": "Канализация",
+        "fireInput1": "Өрт киргизүү 1",
+        "fireInput2": "Өрт киргизүү 2",
+        "notes": "Эскертүүлөр жана комментарийлер",
+        "paymentPaper": "ТУ (кагаз иштери) үчүн төлөм",
+        "paymentConnection": "Туташтыруу үчүн төлөм",
+        "status": "Төлөм статусу",
+        "paymentAmount": "Төлөм суммасы",
+        "paymentDeadline": "ТУ төлөмүнүн мөөнөтү",
+        "paymentInvoiceNumber": "Эсеп №",
+        "fireFightingOuter": "Сырткы өрт өчүрүү",
+        "fireFightingInner": "Ички өрт өчүрүү",
+        "collectorDiameter": "Коллектор D",
+        "provideWater": "Суу түтүгүн караштыруу",
+        "provideSewer": "Канализацияны караштыруу",
+        "freePressureInput1": "Эркин басым киргизүү 1",
+        "waterPipeDiameter1": "Суу түтүгү D 1",
+        "freePressureInput2": "Эркин басым киргизүү 2",
+        "waterPipeDiameter2": "Суу түтүгү D 2"
+      },
+      "placeholders": {
+        "requestSource": "Объекттин аталышы",
+        "requestNumber": "12345",
+        "requestDate": "YYYY-MM-DD",
+        "customer": "Аты-жөнү же уюм",
+        "objectName": "Турак үй",
+        "address": "Объекттин дареги",
+        "techConditionType": "ТУ тиби",
+        "eni": "1234",
+        "sewageAmount": "Мисалы: 2",
+        "waterRequired": "123",
+        "pressureRequired": "10",
+        "fireFighting": "Турак үй",
+        "stage": "Баскычты тандаңыз",
+        "formula": "Формулалар",
+        "connectionTarget": "Объекттин аталышы",
+        "streetPass": "Көчө боюнча өтүү",
+        "collector": "01:00|12:34567",
+        "waterPipe": "Көчө боюнча өтүү",
+        "sewer": "01:00|12:34567",
+        "fireInput1": "киргизүү 1",
+        "fireInput2": "киргизүү 2",
+        "notes": "Комментарий",
+        "status": "Статусту тандаңыз",
+        "paymentAmount": "1000",
+        "paymentPaper": "Сумманы киргизиңиз",
+        "paymentConnection": "Сумманы киргизиңиз",
+        "paymentDeadline": "YYYY-MM-DD",
+        "invoiceNumber": "1234567890",
+        "diameter": "Диаметр",
+        "selectOption": "Вариант тандаңыз",
+        "provideWater": "Суу түтүгүн караштыруу",
+        "provideSewer": "Канализацияны караштыруу",
+        "freePressureInput1": "Эркин басым киргизүү 1",
+        "waterPipeDiameter1": "Суу түтүгү D 1",
+        "freePressureInput2": "Эркин басым киргизүү 2",
+        "waterPipeDiameter2": "Суу түтүгү D 2"
+      },
+      "validation": {
+        "specifySource": "Булакты көрсөтүңүз",
+        "specifyRequestNumber": "Сурам номерин көрсөтүңүз",
+        "specifyRequestDate": "Сурам датасын көрсөтүңүз",
+        "specifyCustomer": "Кардарды көрсөтүңүз",
+        "specifyObjectName": "Объекттин аталышын көрсөтүңүз",
+        "specifyAddress": "Даректи көрсөтүңүз",
+        "selectType": "Түрүн тандаңыз",
+        "required": "Милдеттүү талаа",
+        "paymentDeadlineMin": "Бүгүнтөн эрте эмес 3 айдан кийин"
+      },
+      "options": {
+        "stages": {
+          "draft": "Долбоор",
+          "review": "Каралууда",
+          "approved": "Бекитилди",
+          "done": "Аякталды"
+        },
+        "status": {
+          "active": "Активдүү",
+          "inactive": "Иштебейт",
+          "archived": "Архивде"
+        },
+        "connectionType": {
+          "existing": "бар",
+          "built": "курулган"
+        }
+      },
+      "buttons": {
+        "change": "Өзгөртүү",
+        "submit": "Даяр"
+      }
+    },
+    "messages": {
+      "loadTuError": "ТУ маалыматын алуу мүмкүн болгон жок.",
+      "createTuSuccess": "Техникалык шарт ийгиликтүү түзүлдү!",
+      "createTuError": "ТУ түзүүдө ката кетти."
+    }
+  },
+  "objectForm": {
+    "labels": {
+      "title": "Объекттин аталышы",
+      "addressStreet": "Дарек",
+      "addressNumber": "Үй номери",
+      "cadastralNumber": "Кадастр номери",
+      "type": "Объекттин тиби",
+      "usageType": "Колдонуу түрү",
+      "status": "Статус"
+    },
+    "placeholders": {
+      "title": "Объекттин аталышы",
+      "addressStreet": "Дарек",
+      "addressNumber": "Үй номери",
+      "cadastralNumber": "01:001:1234567",
+      "type": "Турак үй",
+      "usageType": "Турак үй",
+      "status": "Статусту тандаңыз"
+    },
+    "validation": {
+      "titleRequired": "Объекттин аталышын киргизиңиз",
+      "addressRequired": "Даректи киргизиңиз",
+      "cadastralRequired": "Кадастр номерин киргизиңиз",
+      "statusRequired": "Статусту тандаңыз"
+    },
+    "buttons": {
+      "cancel": "Артка",
+      "add": "Кошуу"
+    }
+  },
+  "objectCard": {
+    "more": "Толугураак",
+    "createdAt": "Түзүлгөн күнү",
+    "address": "Дарек",
+    "cadastral": "Кадастр",
+    "status": "Статус"
+  },
+  "yandexMap": {
+    "labels": {
+      "request": "Арыз",
+      "address": "Дарек",
+      "status": "Статус",
+      "stage": "Баскыч"
+    }
+  },
+  "mapPointSelector": {
+    "title": "Картадан чекит тандаңыз",
+    "hint": {
+      "dragToMove": "Ордун өзгөртүү үчүн жылдырыңыз"
+    },
+    "errors": {
+      "initMap": "Картаны инициализациялоо катасы",
+      "loadMap": "Картаны жүктөө мүмкүн болгон жок",
+      "loadMapTitle": "Картаны жүктөө катасы"
+    },
+    "messages": {
+      "timeout": "Картаны жүктөө убактысы өттү",
+      "selectPointFirst": "Адегенде картадагы чекитти тандаңыз",
+      "saved": "Координаттар сакталды",
+      "saveError": "Сактоодо ката кетти",
+      "cleared": "Тандоо тазаланды"
+    },
+    "loading": {
+      "preparing": "Даярдалып жатат...",
+      "loadingMap": "Карта жүктөлүүдө...",
+      "scriptLoaded": "Скрипт жүктөлдү...",
+      "initializingMap": "Карта инициализацияланууда...",
+      "loadError": "Жүктөө катасы",
+      "loading": "Жүктөлүүдө..."
+    },
+    "actions": {
+      "reloadPage": "Баракты кайра жүктөө",
+      "clear": "Тазалоо",
+      "tryAgain": "Кайра аракет кылуу"
+    },
+    "card": {
+      "clickToSelect": "Координаттарды тандоо үчүн картага басыңыз",
+      "selectedCoordinates": "Тандалган координаттар"
+    },
+    "labels": {
+      "address": "Дарек"
+    }
+  },
+  "protocolDoc": {
+    "companyName": "МП \"Бишкектеплосеть\"",
+    "takeaway": "Алып кетүү",
+    "vikCostLabel": "ВиК туташтыруу баасы сом (КНСсиз)",
+    "tuWater": "ТУ суу түтүгү",
+    "tuSewer": "ТУ канализация",
+    "totalWithoutVat": "Жалпы (КНСсиз)",
+    "extraText": "Протоколдун кошумча тексти же контент..."
+  },
+  "protocolEdit": {
+    "title": "Протоколду түзөтүү",
+    "sections": {
+      "main": "Негизги маалымат",
+      "cost": "Баасы",
+      "taxes": "КНС жана салыктар",
+      "total": "Жалпы сумма"
+    },
+    "fields": {
+      "load": "Жүк (нагрузка)",
+      "coefficient": "Коэффициент",
+      "waterPrice": "Суу түтүгүнүн баасы",
+      "kanalPrice": "Канализациянын баасы",
+      "totalWater": "Суу түтүгү боюнча жалпы сумма",
+      "totalKanal": "Канализация боюнча жалпы сумма",
+      "ndsMain": "КНС (негизги)",
+      "ndsPaper": "КНС (кагаз иштери)",
+      "nspMain": "НСП (негизги)",
+      "nspPaper": "НСП (кагаз иштери)"
+    },
+    "placeholders": {
+      "enterLoad": "Жүктү киргизиңиз",
+      "enterCoeff": "Коэффициентти киргизиңиз",
+      "enterCost": "Бааны киргизиңиз",
+      "enterTotal": "Жалпы сумманы киргизиңиз"
+    }
+  },
+  "notification": {
+    "active": "Эски",
+    "new": "Жаңы",
+    "assignResponsible": "Жооптууну дайындоо",
+    "time": {
+      "weekAgo": "бир жума мурун"
+    },
+    "markAllAsRead": "Баарын окулган деп белгилөө",
+    "seeAll": "Баарын көрсөтүү",
+    "date": {
+      "today": "Бүгүн",
+      "yesterday": "Кечээ",
+      "lastMonth": "Өткөн ай",
+      "earlier": "Мурдараак"
+    },
+    "open": "Ачуу",
+    "read": "Окутулган"
+  },
+  "paymentsModal": {
+    "title": "Төлөм кошуу",
+    "labels": {
+      "paymentNumber": "Төлөм номери",
+      "paymentDate": "Төлөм датасы",
+      "amount": "Төлөм суммасы",
+      "source": "Төлөм булагы",
+      "status": "Төлөм статусу",
+      "optionalReceiptFile": "Чек файлы (милдеттүү эмес)"
+    },
+    "placeholders": {
+      "paymentNumber": "Төлөм номерин киргизиңиз",
+      "date": "Датаны тандаңыз",
+      "amount": "Сумманы киргизиңиз",
+      "source": "Мисалы: 1С",
+      "status": "Статусту тандаңыз"
+    },
+    "buttons": {
+      "uploadReceipt": "Чекти жүктөө",
+      "replaceFile": "Файлды алмаштыруу",
+      "cancel": "Жокко чыгаруу",
+      "submit": "Төлөм кошуу"
+    },
+    "messages": {
+      "success": "Төлөм ийгиликтүү кошулду",
+      "error": "Төлөмдү кошууда ката кетти",
+      "fileTypeError": "Сүрөттөрдү, PDF же документтерди гана жүктөөгө болот",
+      "fileSizeError": "Файл 10MB ден кичине болушу керек",
+      "fileSelectedPrefix": "Тандалган файл:"
+    },
+    "validation": {
+      "required": "Бул талааны толтуруу зарыл",
+      "amountPositive": "Сумма 0 дөн чоң болушу керек"
+    }
+  },
+  "paymentsTab": {
+    "buttons": {
+      "add": "Кошуу",
+      "pdf": "PDF",
+      "receipt": "Чек",
+      "closeInvoice": "Эсепти жабуу"
+    },
+    "table": {
+      "empty": "Төлөмдөр жок",
+      "actions": "Аракеттер"
+    },
+    "of": "дан",
+    "headingByInvoices": "Эсептер боюнча төлөмдөр",
+    "messages": {
+      "loadErrorTitle": "Жүктөө катасы",
+      "loadErrorDesc": "Төлөмдөрдүн маалыматын жүктөө мүмкүн болгон жок",
+      "invoiceFullyPaid": "Эсеп толугу менен төлөндү"
+    }
+  },
+  "accounting": {
+    "errors": {
+      "loadTitle": "Жүктөө катасы",
+      "loadDesc": "Бухгалтерия маалыматын жүктөө мүмкүн болгон жок",
+      "protocolIdNotFound": "Протоколдун ID табылган жок",
+      "endpointNotFound": "Эсеп түзүү үчүн эндпоинт табылган жок",
+      "badRequest": "Эсеп түзүү үчүн туура эмес маалымат",
+      "serverError": "Эсеп түзүүдө сервер катасы",
+      "downloadProtocolError": "Протоколду жүктөп алууда ката",
+      "invoicesLoadTitle": "Эсептерди жүктөөдө ката",
+      "invoicesLoadDesc": "Балким, эсептер али түзүлө элек же API URL туура эмес",
+      "invoicesWarnTitle": "Эсептерди жүктөөдө көйгөй",
+      "invoicesWarnDesc": "API endpoint туура экенин текшериңиз",
+      "protocolUpdateError": "Протоколду жаңыртууда ката"
+    },
+    "labels": {
+      "paid": "Төлөндү",
+      "pending": "Төлөм күтүлүүдө",
+      "invoicesNotFound": "Эсептер табылган жок",
+      "waterSupply": "Суу менен камсыздоо",
+      "sewer": "Канализация",
+      "type": "Түрү",
+      "status": "Статус",
+      "total": "Жалпы",
+      "invoiceNumber": "Эсеп номери"
+    },
+    "invoiceTypeLabels": {
+      "main": "Негизги эсеп",
+      "paper_tu": "Кагаз ТУ үчүн"
+    },
+    "protocol": {
+      "nsp": "НСП",
+      "nds": "КНС",
+      "paperWorkWater": "Кагаз иштери (суу түтүгү)",
+      "paperWorkSewer": "Кагаз иштери (канализация)",
+      "waterConnectNoTaxes": "Суу түтүгүнө туташуу баасы (КНС жана НСПсиз)",
+      "sewerConnectNoTaxes": "Канализацияга туташуу баасы (КНС жана НСПсиз)",
+      "nspWaterPaper": "НСП суу түтүгү",
+      "nspSewerPaper": "НСП канализация",
+      "nspTotalPaper": "НСП жалпы",
+      "ndsWaterPaper": "КНС суу түтүгү",
+      "ndsSewerPaper": "КНС канализация",
+      "ndsTotalPaper": "КНС жалпы"
+    },
+    "sections": {
+      "mainCalculations": "Негизги эсептөөлөр",
+      "issueTu": "Техникалык шарттарды берүү"
+    },
+    "messages": {
+      "generateInvoiceSuccess": "Эсеп ийгиликтүү түзүлдү",
+      "invoiceFileUnavailable": "Эсеп файлын жүктөп алуу мүмкүн эмес",
+      "protocolDownloaded": "Протокол ийгиликтүү жүктөлдү",
+      "needCreateInvoiceFirst": "Төлөмдөрдү көрүү үчүн адегенде эсеп түзүү керек",
+      "paidTag": "(Төлөндү)",
+      "protocolUpdated": "Протокол ийгиликтүү жаңыртылды",
+      "updatingInvoices": "Эсептер жаңы маалыматтар менен жаңыртылууда...",
+      "protocolRegeneratedInvoices": "Протокол жаңыртылды жана эсептер жаңы маалыматтар менен кайра түзүлдү",
+      "invoicesUpdateWarning": "Протокол жаңыртылды, бирок эсептерди жаңыртууда ката кетти",
+      "generateInvoiceError": "Эсеп түзүүдө ката кетти"
+    }
+  },
+  "tyImport": {
+    "title": "Excelден техникалык шарттарды импорттоо",
+    "steps": {
+      "selectFile": "Файл тандоо",
+      "selectFileDesc": "Excel файлды жүктөңүз",
+      "processing": "Иштетүү",
+      "processingDesc": "Маалыматтарды импорттоо",
+      "result": "Натыйжа",
+      "resultDesc": "Натыйжаларды көрүү"
+    },
+    "upload": {
+      "cardTitle": "Файл жүктөө",
+      "dragTextStrong": "Файлды бул аймакка басыңыз же сүйрөңүз",
+      "dragHint": ".xlsx жана .xls форматындагы файлдар (10MB чейин) колдоого алынат",
+      "alertTitle": "Маанилүү!",
+      "alertDescription": "Excel файлы бардык зарыл тилкелерди камтып, туура форматталганын текшериңиз"
+    },
+    "requirements": {
+      "cardTitle": "Файлга талаптар",
+      "list": {
+        "item1": "Файл .xlsx же .xls форматында болушу керек",
+        "item2": "Биринчи сап тилке аталыштарын камтуусу керек",
+        "item3": "Файлдын максималдуу өлчөмү: 10MB",
+        "item4": "Бош саптар өткөрүлүп кетет",
+        "item5": "Бардык ТУ статусу \"Архив\" кылып коюлат",
+        "item6": "Стадия \"Аякталды\" деп коюлат"
+      }
+    },
+    "processingFile": {
+      "cardTitle": "Файлды иштетүү",
+      "processingFile": "Файл иштетилүүдө: {{name}}",
+      "size": "({{size}})",
+      "importing": "Маалыматтар импорттолууда...",
+      "preparing": "Даярдоо..."
+    },
+    "results": {
+      "cardTitle": "Импорт натыйжалары",
+      "createdTu": "Түзүлгөн ТУ",
+      "createdIds": "Жазуулардын ID",
+      "errors": "Каталар",
+      "successTag": "Импорт ийгиликтүү",
+      "errorTag": "Каталар менен импорт",
+      "createdTuPrefix": "Түзүлгөн ТУ:",
+      "archivedTag": "Бардык ТУ архивге кошулду",
+      "createdTuCardTitle": "Түзүлгөн техникалык шарттар ({{count}})",
+      "createdIdsPrefix": "Түзүлгөн ТУ ID лери:",
+      "tuLabel": "ТУ #{{id}}",
+      "showingFirst": "Биринчи жазуулар көрсөтүлдү. Бардыгы болуп түзүлгөн: {{count}} ТУ"
+    },
+    "errors": {
+      "cardTitle": "Импорт каталары ({{count}})",
+      "downloadReport": "Отчетту жүктөө",
+      "alertTitle": "Каталар табылды",
+      "alertDesc": "Ката бар саптар өткөрүлүп кетти. Булак файлда оңдоп, кайра импорттоңуз.",
+      "table": {
+        "index": "№",
+        "description": "Катанын сүрөттөлүшү"
+      }
+    },
+    "actions": {
+      "importAnother": "Дагы бир файл импорттоо",
+      "goToArchive": "ТУ архивине өтүү"
+    },
+    "excelFormat": {
+      "cardTitle": "Excel файл форматы",
+      "intro": "Сиздин Excel файлда төмөнкү тилкелер болушу керек:",
+      "columnsTable": {
+        "title": "Тилкенин аталышы",
+        "description": "Сүрөттөмө",
+        "example": "Мисал",
+        "requiredTag": "милдеттүү"
+      }
+    },
+    "messages": {
+      "importSuccess": "{{message}} Түзүлгөн ТУ: {{count}}",
+      "importWarning": "{{message}}. Каталар табылды.",
+      "importError": "Файлды импорттоодо ката кетти",
+      "reportDownloaded": "Ката боюнча отчет жүктөлдү"
+    },
+    "excel": {
+      "columns": {
+        "tu_number": {
+          "title": "№ТУ",
+          "description": "Техникалык шарт номери",
+          "example": "ТУ-001-2024"
+        },
+        "registration_date": {
+          "title": "Каттоо датасы",
+          "description": "Каттоо датасы",
+          "example": "15.01.2024"
+        },
+        "customer": {
+          "title": "Кардар",
+          "description": "Кардардын аты",
+          "example": "ОсОО \"Строй Компания\""
+        },
+        "address": {
+          "title": "Дарек",
+          "description": "Объекттин дареги",
+          "example": "Бишкек ш., Манас к., 45"
+        },
+        "object_name": {
+          "title": "Объекттин аталышы",
+          "description": "Объекттин сүрөттөлүшү",
+          "example": "Турак үй"
+        },
+        "water_quantity": {
+          "title": "Суунун көлөмү",
+          "description": "Суунун көлөмү",
+          "example": "15.5"
+        },
+        "sewage_quantity": {
+          "title": "Стоктор көлөмү",
+          "description": "Стоктордун көлөмү",
+          "example": "12.0"
+        },
+        "contract_info": {
+          "title": "ТУ жана уруксат үчүн төлөм келишими № жана датасы",
+          "description": "Келишим номери жана датасы",
+          "example": "Келишим №123 10.01.2024 ж."
+        },
+        "invoice_number": {
+          "title": "Төлөм үчүн эсеп №",
+          "description": "Эсеп номери",
+          "example": "INV-456"
+        },
+        "payment_amount": {
+          "title": "ТУ жана уруксат үчүн төлөм суммасы",
+          "description": "Төлөнө турган сумма",
+          "example": "25000"
+        },
+        "payment_date": {
+          "title": "Төлөм датасы",
+          "description": "Төлөм датасы",
+          "example": "20.01.2024"
+        }
+      }
+    }
+  }
+}

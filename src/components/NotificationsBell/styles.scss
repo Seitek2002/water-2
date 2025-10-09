@@ -1,0 +1,85 @@
+.notif-popover {
+  width: 420px;
+  max-width: 90vw;
+
+  &__overlay {
+    .ant-popover-inner {
+      border-radius: 16px;
+      padding: 16px;
+      box-shadow:
+        0 12px 28px rgba(0, 0, 0, 0.12),
+        0 2px 4px rgba(0, 0, 0, 0.06);
+    }
+  }
+
+  &__header {
+    margin-bottom: 8px;
+
+    .ant-typography {
+      font-weight: 600;
+    }
+
+    .ant-btn-link {
+      padding: 0;
+      color: #2f80ed;
+
+      &:hover {
+        color: #1c5fc0;
+      }
+    }
+  }
+
+  &__item {
+    padding: 12px 0;
+    border-bottom: 1px solid #f0f0f0;
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    // Fix icon squashing: lock avatar size and center icon
+    .ant-avatar {
+      width: 36px;
+      height: 36px;
+      min-width: 36px;
+      min-height: 36px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+
+      img {
+        width: 22px;
+        height: 22px;
+        object-fit: contain;
+        display: block;
+      }
+    }
+  }
+
+  &__title {
+    display: block;
+    color: #1f1f1f;
+  }
+
+  &__message {
+    color: #4c4c4c;
+    font-size: 13px;
+    margin-top: 2px;
+  }
+
+  &__time {
+    color: #8c8c8c;
+    font-size: 12px;
+    margin-top: 6px;
+  }
+
+  &__dot {
+    width: 10px;
+    height: 10px;
+    background-color: #2f80ed;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 8px;
+    flex: 0 0 auto;
+  }
+}
