@@ -412,7 +412,7 @@ export const ApplicationsCreate: FC<IProps> = ({ title }) => {
                 label={t('applicationsCreate.form.labels.waterAmountRequired')}
                 rules={[{ required: true, message: t('applicationsCreate.form.validation.required') }, { max: 5 }]}
               >
-                <Input size='large' placeholder='16,93' type='number' min={0} maxLength={5} />
+                <Input size='large' placeholder='16,93' type='text' min={0} maxLength={5} />
               </Form.Item>
             </Col>
             <Col span={12}>
@@ -421,7 +421,7 @@ export const ApplicationsCreate: FC<IProps> = ({ title }) => {
                 label={t('applicationsCreate.form.labels.pressureRequired')}
                 rules={[{ required: true, message: t('applicationsCreate.form.validation.required') }, { max: 5 }]}
               >
-                <Input size='large' placeholder='16,93' type='number' min={0} maxLength={5} />
+                <Input size='large' placeholder='16,93' type='text' min={0} maxLength={5} />
               </Form.Item>
             </Col>
           </Row>
