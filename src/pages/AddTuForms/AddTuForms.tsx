@@ -93,7 +93,7 @@ const AddTuForms: FC<{ title: string }> = ({ title }) => {
     if (tuQuery.data) {
       form.setFieldsValue({
         ...tuQuery.data,
-        customer: tuQuery.data.customer.full_name,
+        customer: tuQuery.data.customer?.full_name,
         application: tuQuery.data.application?.id,
         request_date: tuQuery.data.request_date,
         payment_deadline: tuQuery.data.payment_deadline,
@@ -132,7 +132,7 @@ const AddTuForms: FC<{ title: string }> = ({ title }) => {
 
   const onCustomerEdit = useCallback(() => {
     navigate(`/dashboard/customers/${tuQuery.data?.customer.id}/edit`);
-  }, [navigate, tuQuery.data?.customer.id]);
+  }, [navigate, tuQuery.data?.customer?.id]);
 
   const onAddressEdit = useCallback(() => {
     navigate(`/dashboard/objects/${tuQuery.data?.entity}`);
